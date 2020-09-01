@@ -1,0 +1,392 @@
+create table department(dept_id int primary key,
+                        name varchar(20) NOT NULL,
+                        location varchar(20) NOT NULL);
+
+
+
+create table salaryGrade(grade varchar(3) NOT NULL,
+                       low_sal float(10) NOT NULL,
+                        high_sal float(10) NOT NULL);
+
+
+
+
+
+
+
+create table employee(emp_no int primary key,
+                        name varchar(20) NOT NULL,
+                        job varchar(20) NOT NULL,
+                        manage_no int,
+                        hire_date varchar(10),
+                        salary float(10) NOT NULL,
+                        commision varchar(20) NOT NULL,
+                        dept_id int,
+                       FOREIGN KEY (dept_id) REFERENCES department(dept_id)
+                      );
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+mysql> describe department;
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| dept_id  | int(11)     | NO   | PRI | NULL    |       |
+| name     | varchar(20) | NO   |     | NULL    |       |
+| location | varchar(20) | NO   |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+
+3 rows in set (0.01 sec)
+
+mysql> describe salaryGrade;
++----------+------------+------+-----+---------+-------+
+| Field    | Type       | Null | Key | Default | Extra |
++----------+------------+------+-----+---------+-------+
+| grade    | varchar(3) | NO   |     | NULL    |       |
+| low_sal  | float      | NO   |     | NULL    |       |
+| high_sal | float      | NO   |     | NULL    |       |
++----------+------------+------+-----+---------+-------+
+3 rows in set (0.01 sec)
+
+mysql> describe employee;
++-----------+-------------+------+-----+---------+-------+
+| Field     | Type        | Null | Key | Default | Extra |
++-----------+-------------+------+-----+---------+-------+
+| emp_no    | int(11)     | NO   | PRI | NULL    |       |
+| name      | varchar(20) | NO   |     | NULL    |       |
+| job       | varchar(20) | NO   |     | NULL    |       |
+| manage_no | int(11)     | YES  |     | NULL    |       |
+| hire_date | varchar(10) | YES  |     | NULL    |       |
+| salary    | float       | NO   |     | NULL    |       |
+| commision | varchar(20) | NO   |     | NULL    |       |
+| dept_id   | int(11)     | NO   |     | NULL    |       |
++-----------+-------------+------+-----+---------+-------+
+8 rows in set (0.01 sec)
+
+mysql>
+
+
+
+
+
+
+Final O/p
+
+
+
+mysql> describe employee;
++-----------+-------------+------+-----+---------+-------+
+| Field     | Type        | Null | Key | Default | Extra |
++-----------+-------------+------+-----+---------+-------+
+| emp_no    | int(11)     | NO   | PRI | NULL    |       |
+| name      | varchar(20) | NO   |     | NULL    |       |
+| job       | varchar(20) | NO   |     | NULL    |       |
+| manage_no | int(11)     | YES  |     | NULL    |       |
+| hire_date | varchar(10) | YES  |     | NULL    |       |
+| salary    | float       | NO   |     | NULL    |       |
+| commision | varchar(20) | NO   |     | NULL    |       |
+| dept_id   | int(11)     | YES  | MUL | NULL    |       |
++-----------+-------------+------+-----+---------+-------+
+8 rows in set (0.01 sec)
+
+mysql> describe department;
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| dept_id  | int(11)     | NO   | PRI | NULL    |       |
+| name     | varchar(20) | NO   |     | NULL    |       |
+| location | varchar(20) | NO   |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+
+3 rows in set (0.01 sec)
+
+mysql> describe salaryGrade;
++----------+------------+------+-----+---------+-------+
+| Field    | Type       | Null | Key | Default | Extra |
++----------+------------+------+-----+---------+-------+
+| grade    | varchar(3) | NO   |     | NULL    |       |
+| low_sal  | float      | NO   |     | NULL    |       |
+| high_sal | float      | NO   |     | NULL    |       |
++----------+------------+------+-----+---------+-------+
+3 rows in set (0.01 sec)
+
+mysql> describe employee;
++-----------+-------------+------+-----+---------+-------+
+| Field     | Type        | Null | Key | Default | Extra |
++-----------+-------------+------+-----+---------+-------+
+| emp_no    | int(11)     | NO   | PRI | NULL    |       |
+| name      | varchar(20) | NO   |     | NULL    |       |
+| job       | varchar(20) | NO   |     | NULL    |       |
+| manage_no | int(11)     | YES  |     | NULL    |       |
+| hire_date | varchar(10) | YES  |     | NULL    |       |
+| salary    | float       | NO   |     | NULL    |       |
+| commision | varchar(20) | NO   |     | NULL    |       |
+| dept_id   | int(11)     | YES  | MUL | NULL    |       |
++-----------+-------------+------+-----+---------+-------+
+8 rows in set (0.01 sec)
+
+mysql>
+
+
+
+
+
+
+insert into department values(1,"Computer Science","Pune");
+insert into department values(2,"Commerce","Pune");
+insert into department values(3,"Scince","Mumbai");
+insert into department values(4,"History","Pune");
+insert into department values(5,"Geography","Kolhapur");
+
+
+mysql> insert into department values(1,"Computer Science","Pune");
+Query OK, 1 row affected (0.06 sec)
+
+mysql> insert into department values(2,"Commerce","Pune");
+Query OK, 1 row affected (0.02 sec)
+
+mysql> insert into department values(3,"Scince","Mumbai");
+Query OK, 1 row affected (0.02 sec)
+
+mysql> insert into department values(4,"History","Pune");
+Query OK, 1 row affected (0.02 sec)
+
+mysql> insert into department values(5,"Geography","Kolhapur");
+Query OK, 1 row affected (0.06 sec)
+
+mysql> SELECT * from department;
++---------+------------------+----------+
+| dept_id | name             | location |
++---------+------------------+----------+
+|       1 | Computer Science | Pune     |
+|       2 | Commerce         | Pune     |
+|       3 | Scince           | Mumbai   |
+|       4 | History          | Pune     |
+|       5 | Geography        | Kolhapur |
++---------+------------------+----------+
+5 rows in set (0.01 sec)
+
+
+
+
+
+
+
+insert into salaryGrade values('A',15000,20000);
+insert into salaryGrade values('B',16000,20000);
+insert into salaryGrade values('A',1800,2000);
+insert into salaryGrade values('A',28000,30000);
+insert into salaryGrade values('B',1500,2000);
+
+
+mysql> insert into salaryGrade values('B',16000,20000);
+Query OK, 1 row affected (0.02 sec)
+
+mysql> insert into salaryGrade values('A',1800,2000);
+Query OK, 1 row affected (0.02 sec)
+
+mysql> insert into salaryGrade values('A',28000,30000);
+Query OK, 1 row affected (0.02 sec)
+
+mysql> insert into salaryGrade values('B',1500,2000);
+Query OK, 1 row affected (0.02 sec)
+
+mysql>
+mysql> SELECT * from salaryGrade;
++-------+---------+----------+
+| grade | low_sal | high_sal |
++-------+---------+----------+
+| A     |   15000 |    20000 |
+| B     |   16000 |    20000 |
+| A     |    1800 |     2000 |
+| A     |   28000 |    30000 |
+| B     |    1500 |     2000 |
++-------+---------+----------+
+5 rows in set (0.01 sec)
+
+
+
+
+
+mysql> insert into salaryGrade values('B',16000,20000);
+Query OK, 1 row affected (0.02 sec)
+
+mysql> insert into salaryGrade values('A',1800,2000);
+Query OK, 1 row affected (0.02 sec)
+
+mysql> insert into salaryGrade values('A',28000,30000);
+Query OK, 1 row affected (0.02 sec)
+
+mysql> insert into salaryGrade values('B',1500,2000);
+Query OK, 1 row affected (0.02 sec)
+
+mysql>
+mysql> SELECT * from salaryGrade;
++-------+---------+----------+
+| grade | low_sal | high_sal |
++-------+---------+----------+
+| A     |   15000 |    20000 |
+| B     |   16000 |    20000 |
+| A     |    1800 |     2000 |
+| A     |   28000 |    30000 |
+| B     |    1500 |     2000 |
++-------+---------+----------+
+5 rows in set (0.01 sec)
+
+
+
+insert into employee values(1,"Manoj","ABC",1,22082019,15000,"2000",1);
+insert into employee values(2,"Ramesh","PQR",1,22082019,18000,"5000",2);
+insert into employee values(3,"Suresh","XYZ",1,22082019,25000,"7000",3);
+insert into employee values(4,"Mahesh","CCC",1,22082019,55000,"3000",4);
+insert into employee values(5,"sangram","AAA",1,22082019,85000,"1000",5);
+
+
+mysql> insert into employee values(1,"Manoj","ABC",1,22/08/2019,15000,"2000",1);
+
+ERROR 1406 (22001): Data too long for column 'hire_date' at row 1
+mysql>
+mysql> insert into employee values(1,"Manoj","ABC",1,22082019,15000,"2000",1);
+Query OK, 1 row affected (0.03 sec)
+
+mysql> insert into employee values(2,"Ramesh","PQR",1,22082019,18000,"5000",2);
+Query OK, 1 row affected (0.02 sec)
+
+mysql> insert into employee values(3,"Suresh","XYZ",1,22082019,25000,"7000",3);
+Query OK, 1 row affected (0.02 sec)
+
+mysql> insert into employee values(4,"Mahesh","CCC",1,22082019,55000,"3000",4);
+Query OK, 1 row affected (0.02 sec)
+
+mysql> insert into employee values(5,"sangram","AAA",1,22082019,85000,"1000",5);
+
+Query OK, 1 row affected (0.02 sec)
+
+mysql> select * from employee;
++--------+---------+-----+-----------+-----------+--------+-----------+---------
++
+| emp_no | name    | job | manage_no | hire_date | salary | commision | dept_id
+|
++--------+---------+-----+-----------+-----------+--------+-----------+---------
++
+|      1 | Manoj   | ABC |         1 | 22082019  |  15000 | 2000      |       1
+|
+|      2 | Ramesh  | PQR |         1 | 22082019  |  18000 | 5000      |       2
+|
+|      3 | Suresh  | XYZ |         1 | 22082019  |  25000 | 7000      |       3
+|
+|      4 | Mahesh  | CCC |         1 | 22082019  |  55000 | 3000      |       4
+|
+|      5 | sangram | AAA |         1 | 22082019  |  85000 | 1000      |       5
+|
++--------+---------+-----+-----------+-----------+--------+-----------+---------
++
+5 rows in set (0.00 sec)
+
+mysql>mysql> select * from salaryGrade;
++-------+---------+----------+
+| grade | low_sal | high_sal |
++-------+---------+----------+
+| A     |   15000 |    20000 |
+| B     |   16000 |    20000 |
+| A     |    1800 |     2000 |
+| A     |   28000 |    30000 |
+| B     |    1500 |     2000 |
++-------+---------+----------+
+5 rows in set (0.00 sec)
+
+mysql> select * from department;
++---------+------------------+----------+
+| dept_id | name             | location |
++---------+------------------+----------+
+|       1 | Computer Science | Pune     |
+|       2 | Commerce         | Pune     |
+|       3 | Scince           | Mumbai   |
+|       4 | History          | Pune     |
+|       5 | Geography        | Kolhapur |
++---------+------------------+----------+
+5 rows in set (0.00 sec)
+
+mysql> select * from employee;
++--------+---------+-----+-----------+-----------+--------+-----------+---------
++
+| emp_no | name    | job | manage_no | hire_date | salary | commision | dept_id
+|
++--------+---------+-----+-----------+-----------+--------+-----------+---------
++
+|      1 | Manoj   | ABC |         1 | 22082019  |  15000 | 2000      |       1
+|
+|      2 | Ramesh  | PQR |         1 | 22082019  |  18000 | 5000      |       2
+|
+|      3 | Suresh  | XYZ |         1 | 22082019  |  25000 | 7000      |       3
+|
+|      4 | Mahesh  | CCC |         1 | 22082019  |  55000 | 3000      |       4
+|
+|      5 | sangram | AAA |         1 | 22082019  |  85000 | 1000      |       5
+|
++--------+---------+-----+-----------+-----------+--------+-----------+---------
++
+5 rows in set (0.00 sec)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

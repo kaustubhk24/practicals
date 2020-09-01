@@ -1,0 +1,35 @@
+create table countries(country_id int primary key,country_name varchar(20));
+
+
+insert into countries values(91,"india");
+
+insert into countries values(1,"USA");
+
+insert into countries values(81,"Japan"); 
+
+
+insert into countries values(92,"PAk);
+
+
+
+
+ALTER TABLE countries RENAME to country_new;
+
+ALTER TABLE country_new ADD region_id int(10) NOT NULL;
+
+ALTER TABLE country_new ADD state_province varchar(80) NOT NULL AFTER region_id;
+
+ALTER TABLE country_new MODIFY country_id varchar(80) NOT NULL;
+
+
+ALTER TABLE country_new MODIFY country_id int(10) NOT NULL;
+
+
+ALTER TABLE country_new DROP state_province;
+
+ALTER TABLE country_new CHANGE Column region_id region int(10) NOT NULL;
+
+ALTER TABLE country_new
+ADD PRIMARY KEY(country_id);
+
+drop table country_new;

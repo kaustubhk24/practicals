@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Keyboard Example</title>
+	<style type="text/css">
+		span{
+			display: none;
+		}
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var kyp=0;
+			$(myTxt).keydown(function(){
+				$(this).next("span").show();
+			});
+			$(myTxt).keypress(function(){
+				kyp=kyp+1;
+			});
+			$(myTxt).keyup(function(){
+				$(this).next("span").hide();
+			});
+			$(myTxt).blur(function(){
+				alert("Total number of keys pressed:"+kyp);
+			});
+		});
+
+	</script>
+</head>
+<body>
+<form align="center">
+	Enter Something here <br><input type="text" id="myTxt"><br><span>Key Pressed</span><br>
+
+</form>
+
+</body>
+</html>

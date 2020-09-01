@@ -1,0 +1,36 @@
+<!DOCTYPE HTML> 
+<html> 
+  
+<head> 
+    <!--function to check that name can not be empty-->
+    <script> 
+        function checkempty(form) { 
+            if (form.name.value == null || form.name.value.length==0) { 
+                alert("Name cannot be empty!"); 
+                return false; 
+            } else { 
+				if(typeof age ==='undefined')
+				{
+					alert("Age cannot be empty!");
+				}
+				else
+                alert("Your response has been recorded!!!"); 
+                return true; 
+            } 
+        } 
+    </script> 
+</head> 
+  
+<body> 
+    <div> 
+        <center>
+			<form onsubmit="checkempty(form1)" name="form1">
+				Enter name:<input type="text" id="name"><br>
+				Enter age:<input type="text" id="age"><br>
+				  <input type="submit" value="submit"><br>
+            </form> 
+        </center> 
+    </div> 
+</body> 
+  
+</html> 

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Songs Lists</title>
+
+</head>
+<body>
+    <center>
+        <div>
+         <audio id="myAd" controls>
+            <source id="firstAd" src="I:/SONGS/MARATHI/Balgandharva/PARVARDIGAR-(FunMarathi.Com).mp3" type="audio/mpeg">
+        </audio><br></div>
+        </center>
+        <H3>Music Play-list!</H3>
+    <ol>
+        <li onClick="chgAudio('I:/SONGS/MARATHI/Balgandharva/PARVARDIGAR-(FunMarathi.Com).mp3')">PARVARDIGAR-(FunMarathi.Com)</li>
+        <li onClick="chgAudio('I:/SONGS/MARATHI/Balgandharva/NAHI_MI_BOLAT_NATHA-(FunMarathi.Com).mp3')">NAHI_MI_BOLAT_NATHA-(FunMarathi.Com)</li>
+        <li onclick="chgAudio('I:/SONGS/MARATHI/Balgandharva/NESALI_PITAMBAR_JARI_GA-(FunMarathi.Com).mp3')">NESALI_PITAMBAR_JARI_GA-(FunMarathi.Com)</li>
+       
+        <li onclick="chgAudio('I:/SONGS/MARATHI/Balgandharva/Pariyeva_Ke_Payal_sajani-(FunMarathi.Com).mp3')">Pariyeva_Ke_Payal_sajani-(FunMarathi.Com)</li>
+        <li onclick="chgAudio('I:/SONGS/MARATHI/Balgandharva/VAD_JAU_KUNALA_SHARAN-(FunMarathi.Com).mp3')">VAD_JAU_KUNALA_SHARAN-(FunMarathi.Com)</li>
+    </ol>
+	<script type="text/javascript">
+            var ad = document.getElementById("myAd");
+        
+            function chgAudio(path)
+            {
+                document.getElementById("firstAd").src=path;
+                document.getElementById("myAd").load();
+                document.getElementById("myAd").currentTime=0;
+                document.getElementById("myAd").play();
+                }
+           
+        </script>
+</body>
+</html>

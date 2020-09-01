@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>Click the button to extract characters from the string.</p>
+Enter String:<input type="text" id="string"><br>
+<button onclick="myFunction()">Substring</button>
+<p id="demo"></p>
+<script>
+function myFunction() {
+  var str = document.getElementById("string").value;
+  var res = str.substring(1, 4);
+  document.getElementById("demo").innerHTML = res;
+}
+</script>
+</body>
+</html>

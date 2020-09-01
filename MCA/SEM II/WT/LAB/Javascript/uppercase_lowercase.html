@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Change String Case</title>
+</head>
+<body>
+<button onclick="myFunction()">String magic</button>
+
+<script>
+function myFunction() {
+  var person = prompt("Please enter your name", "Harry Potter");
+  swapcase = function swapcase(str) {
+        return str.replace(/([a-z]+)|([A-Z]+)/g, function(match, chr) {
+            return chr ? match.toUpperCase() : match.toLowerCase();
+        });
+    }
+	alert(swapcase(person));
+	document.write(swapcase(person));
+}
+</script>
+
+</body>
+</html>

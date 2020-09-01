@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Parent DOM Methods</title>
+	<style type="text/css">
+		.highlight{
+			background: Yellow;
+		
+		}
+
+	</style>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("li").parent().addClass("highlight");
+
+
+		});
+	</script>
+</head>
+<body>
+<h1>temp h1</h1>
+<div >
+
+	<h1>DOM Traversal</h1>
+	<ul>
+		<li>Item One</li>
+		<li>Item two</li>
+				<li>Item three</li>
+<li>Item four</li>
+				</ul>
+</div>
+</body>
+</html>

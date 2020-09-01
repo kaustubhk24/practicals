@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>Click the button to add a new element to the array.</p>
+<button onclick="add()">ADD</button><br>
+<button onclick="splice()">SPLICE</button><br>
+<button onclick="shift()">SHIFT</button>
+<p id="demo"></p>
+<script>
+var student = ["Manoj", "Ram", "Laxman", "Bharat"];
+document.getElementById("demo").innerHTML = student;
+function add() {
+  student.push("Shatrughn");
+  document.getElementById("demo").innerHTML = student;
+}
+function splice() {
+  student.splice(2, 0, "Naresh", "Pokemon");
+  document.getElementById("demo").innerHTML = student;
+}
+function shift() {
+  student.shift();
+  document.getElementById("demo").innerHTML = student;
+}
+</script>
+</body>
+</html>

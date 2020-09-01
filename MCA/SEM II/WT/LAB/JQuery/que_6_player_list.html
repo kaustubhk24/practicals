@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PlayerList</title>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	  <script type="text/javascript">
+            $(document).ready(function() {
+                $("#list > li").click(function() {
+                  
+                $('#span_list').text($(this).attr('name')); 
+
+                });
+            });
+        </script>  
+</head>
+<body>
+<ol type="a" id="list">
+  <li name="The God of Cricket">Sachin Tendulkar</li>
+  <li name="The wall">Rahul Dravid</li>
+  <li name="Captain Cool">M.S. Dhoni</li>
+  <li name="Next Master blaster">Virat Kohli</li>
+  
+</ol>
+<br><br>
+<br><br>
+ <span id="span_list" style = "font-size: 15px; font-weight: bold;">  
+              Click on list item
+        </span> 
+
+</body>
+</html>

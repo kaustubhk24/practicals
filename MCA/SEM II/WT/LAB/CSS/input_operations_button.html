@@ -1,0 +1,78 @@
+
+<html>    
+    <head>    
+    <title>    
+        Calculator    
+    </title>   
+<style>
+.red{
+border: 2px solid red;
+
+}
+.yellow
+{
+background-color:yellow;
+}
+
+</style>
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>    
+    <script>    
+     
+        $(document).ready(function(){    
+            $("#btnAdd").on('click',function(){    
+                Add();    
+            });    
+            $("#btnSubstract").on('click',function(){    
+                Substract();    
+            })    
+            $("#btnMultiply").on('click',function(){    
+                Multiply();    
+            })    
+            $("#btnDivide").on('click',function(){    
+                Divide();    
+            })    
+        });    
+        function Add(){    
+         var no1=parseInt($("#txtNo1").val());    
+         var no2=parseInt($("#txtNo2").val());    
+         var result =no1+no2;    
+                   $('#result').val(+result);
+  
+        }    
+        function Substract(){    
+         var no1=parseInt($("#txtNo1").val());    
+         var no2=parseInt($("#txtNo2").val());    
+         var result =no1-no2;    
+                     $('#result').val(+result);
+ 
+        }    
+        function Multiply(){    
+         var no1=parseInt($("#txtNo1").val());    
+         var no2=parseInt($("#txtNo2").val());    
+         var result =no1*no2;    
+                    $('#result').val(+result);
+  
+        }    
+        function Divide(){    
+         var no1=parseInt($("#txtNo1").val());    
+         var no2=parseInt($("#txtNo2").val());    
+         var result =no1/no2;    
+          
+           $('#result').val(+result);
+  
+        }    
+    </script>    
+    </head>    
+    <body>  
+    <div align="center"> 
+       First Number <input type="text" class="red" id="txtNo1" placeholder="Enter first number"><br>    
+        Second Number<input type="text"  class="red" id="txtNo2" placeholder="Enter second number"><br>   
+         Result<input type="text"  class="red" id="result" ><br>   
+        <input type="button" class="yellow" id="btnAdd" value="+">    
+        <input type="button" class="yellow" id="btnSubstract" value="-">    
+        <input type="button" class="yellow" id="btnMultiply" value="*">    
+        <input type="button" class="yellow" id="btnDivide" value="/">    
+        </div> 
+    </body>    
+    </html>  

@@ -1,0 +1,219 @@
+CREATE table dept(dept_id int primary key NOT NULL,dept_name varchar(50),dept_loc varchar(50));
+
+Insert into dept values(10,'ACCOUNTING','NEW YORK');
+Insert into dept values(20,'RESEARCH','DALLAS');
+Insert into dept values(30,'SALES','CHICAGO');
+Insert into dept values(40,'OPERATIONS','BOSTON');
+
+
+select * from dept;
+
+
+
+OUTPUT:::::
+mysql> CREATE table dept(dept_id int primary key NOT NULL,dept_name varchar(50),
+dept_loc varchar(50));
+Query OK, 0 rows affected (0.06 sec)
+
+mysql> Insert into dept values(10,'ACCOUNTING','NEW YORK');
+Query OK, 1 row affected (0.05 sec)
+
+mysql> Insert into dept values(20,'RESEARCH','DALLAS');
+Query OK, 1 row affected (0.03 sec)
+
+mysql> Insert into dept values(30,'SALES','CHICAGO');
+Query OK, 1 row affected (0.02 sec)
+
+mysql> Insert into dept values(40,'OPERATIONS','BOSTON');
+Query OK, 1 row affected (0.01 sec)
+
+mysql> select * from dept;
++---------+------------+----------+
+| dept_id | dept_name  | dept_loc |
++---------+------------+----------+
+|      10 | ACCOUNTING | NEW YORK |
+|      20 | RESEARCH   | DALLAS   |
+|      30 | SALES      | CHICAGO  |
+|      40 | OPERATIONS | BOSTON   |
++---------+------------+----------+
+4 rows in set (0.05 sec)
+
+
+
+QUE 2
+
+CREATE table salgrade(grade int primary key NOT NULL,losal float(30),hisal float(30));
+
+
+insert into salgrade values(1,700.00,1200.00);
+insert into salgrade values(2,1201.00,1400.00);
+insert into salgrade values(3,1401.00,2000.00);
+insert into salgrade values(4,2001.00,3000.00);
+insert into salgrade values(5,3001.00,9999.00);
+
+select * from salgrade;
+
+OUTPUT:::::::::::::
+
+mysql> insert into salgrade values(1,700.00,1200.00);
+Query OK, 1 row affected (0.03 sec)
+
+mysql> insert into salgrade values(2,1201.00,1400.00);
+Query OK, 1 row affected (0.03 sec)
+
+mysql> insert into salgrade values(3,1401.00,2000.00);
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into salgrade values(4,2001.00,3000.00);
+Query OK, 1 row affected (0.02 sec)
+
+mysql> insert into salgrade values(5,3001.00,9999.00);
+Query OK, 1 row affected (0.02 sec)
+
+mysql> select * from salgrade;
++-------+-------+-------+
+| grade | losal | hisal |
++-------+-------+-------+
+|     1 |   700 |  1200 |
+|     2 |  1201 |  1400 |
+|     3 |  1401 |  2000 |
+|     4 |  2001 |  3000 |
+|     5 |  3001 |  9999 |
++-------+-------+-------+
+5 rows in set (0.00 sec)
+
+
+
+CREATE table emp(empno int primary key NOT NULL,ename varchar(20),job varchar(20),mgr int,hiredate varchar(20),sal float(10),comm float(10),dept_id int,FOREIGN KEY (dept_id) REFERENCES dept(dept_id));
+
+insert into emp values(7369,'SMITH','CLERK',7902,'1980-12-17',800,NULL,20);
+
+insert into emp values(7499,'ALLEN','SALESMAN',7698,'1981-02-22',1600,300,30);
+insert into emp values(7566,'JONES','MANAGER',7839,'1981-04-02',2975,NULL,20);
+insert into emp values(7654,'MARTIN','SALESMAN',7698,'1981-09-28',2975,NULL,20);
+insert into emp values(7698,'BLAKE','MANAGER',7839,'1981-06-09',2850,NULL,30);
+insert into emp values(7782,'CLARK','MANAGER',7839,'1981-05-01',1250,1400,30);
+insert into emp values(7788,'SCOTT','ANALYST',7839,'1981-06-09',2450,NULL,10);
+
+insert into emp values(7839,'KING','PRESIDENT',NULL,'1981-11-17',5000,NULL,10);
+insert into emp values(7844,'TURNER','SALESMAN',7698,'1981-09-08',1500,0.0,30);
+
+insert into emp values(7876,'ADAMS','CLERK',7798,'1983-01-12',1100,NULL,20);
+
+insert into emp values(7900,'JAMES','CLERK',7698,'1981-12-03',1100,NULL,10);
+insert into emp values(7902,'FORD','ANALYST',7566,'1981-12-03',3000,NULL,20);
+insert into emp values(7934,'MILLER','CLERK',7782,'1982-01-23',1300,NULL,10);
+
+select * from emp;
+
+
+OUTPUT::::::::::::::::::::::::
+mysql> SELECT * FROM emp;
++-------+-------+----------+------+------------+------+------+---------+
+| empno | ename | job      | mgr  | hiredate   | sal  | comm | dept_id |
++-------+-------+----------+------+------------+------+------+---------+
+|  7369 | SMITH | CLERK    | 7902 | 1980-12-17 |  800 | NULL |      20 |
+|  7499 | ALLEN | SALESMAN | 7698 | 1981-02-22 | 1600 |  300 |      30 |
++-------+-------+----------+------+------------+------+------+---------+
+2 rows in set (0.01 sec)
+
+mysql> insert into emp values(7499,'WARD','SALESMAN',7698,'1981-02-22',1250,500,
+30);
+ERROR 1062 (23000): Duplicate entry '7499' for key 'PRIMARY'
+mysql> insert into emp values(7521,'WARD','SALESMAN',7698,'1981-02-22',1250,500,
+30);
+Query OK, 1 row affected (0.02 sec)
+
+mysql> insert into emp values(7566,'JONES','MANAGER',7839,'1981-04-0insert into
+emp values(7566,'JONES','MANAGER',7839,'1981-04-02',2975,NULL,20);2',1250,500,30
+);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that
+corresponds to your MySQL server version for the right syntax to use near 'JONES
+','MANAGER',7839,'1981-04-02',2975,NULL,20);2',1250,500,30)' at line 1
+mysql> insert into emp values(7566,'JONES','MANAGER',7839,'1981-04-02',2975,NULL
+,20);
+Query OK, 1 row affected (0.05 sec)
+
+mysql> insert into emp values(7654,'MARTIN','SALESMAN',7698,'1981-09-28',2975,NU
+LL,20);
+Query OK, 1 row affected (0.03 sec)
+
+mysql> insert into emp values(7698,'BLAKE','MANAGER',7839,'1981-05-01',1250,1400
+,30);
+Query OK, 1 row affected (0.03 sec)
+
+mysql> insert into emp values(7698,'BLAKE','MANAGER',7839,'1981-06-09',2850,NULL
+,30);
+ERROR 1062 (23000): Duplicate entry '7698' for key 'PRIMARY'
+mysql> insert into emp values(7782,'BLAKE','MANAGER',7839,'1981-06-09',2850,NULL
+,30);
+Query OK, 1 row affected (0.05 sec)
+
+mysql> insert into emp values(7788,'SCOTT','ANALYST',7839,'1981-06-09',2450,NULL
+,10);
+Query OK, 1 row affected (0.05 sec)
+
+mysql> insert into emp values(7839,'KING','PRESIDENT',NULL,'1981-11-17',5000,NUL
+L,10);
+Query OK, 1 row affected (0.05 sec)
+
+mysql>
+mysql> insert into emp values(7844,'TURNER','SALESMAN',7698,'1981-09-08',1500,0.
+0,30);
+Query OK, 1 row affected (0.05 sec)
+
+mysql> insert into emp values(7876,'ADAMS','CLERK',7798,'1983-01-12',1100,NULL,2
+0);
+Query OK, 1 row affected (0.03 sec)
+
+mysql> insert into emp values(7900,'JAMES','CLERK',7698,'1981-12-03',1100,NULL,1
+0);
+Query OK, 1 row affected (0.02 sec)
+
+mysql> insert into emp values(7902,'FORD','ANALYST',7566,'1981-12-03',3000,NULL,
+20);
+Query OK, 1 row affected (0.03 sec)
+
+mysql> insert into emp values(7934,'MILLER','CLERK',7782,'1982-01-23',1300,NULL,
+10);
+Query OK, 1 row affected (0.02 sec)
+
+mysql>
+mysql> select * from emp;
++-------+--------+-----------+------+------------+------+------+---------+
+| empno | ename  | job       | mgr  | hiredate   | sal  | comm | dept_id |
++-------+--------+-----------+------+------------+------+------+---------+
+|  7369 | SMITH  | CLERK     | 7902 | 1980-12-17 |  800 | NULL |      20 |
+|  7499 | ALLEN  | SALESMAN  | 7698 | 1981-02-22 | 1600 |  300 |      30 |
+|  7521 | WARD   | SALESMAN  | 7698 | 1981-02-22 | 1250 |  500 |      30 |
+|  7566 | JONES  | MANAGER   | 7839 | 1981-04-02 | 2975 | NULL |      20 |
+|  7654 | MARTIN | SALESMAN  | 7698 | 1981-09-28 | 2975 | NULL |      20 |
+|  7698 | BLAKE  | MANAGER   | 7839 | 1981-05-01 | 1250 | 1400 |      30 |
+|  7782 | BLAKE  | MANAGER   | 7839 | 1981-06-09 | 2850 | NULL |      30 |
+|  7788 | SCOTT  | ANALYST   | 7839 | 1981-06-09 | 2450 | NULL |      10 |
+|  7839 | KING   | PRESIDENT | NULL | 1981-11-17 | 5000 | NULL |      10 |
+|  7844 | TURNER | SALESMAN  | 7698 | 1981-09-08 | 1500 |    0 |      30 |
+|  7876 | ADAMS  | CLERK     | 7798 | 1983-01-12 | 1100 | NULL |      20 |
+|  7900 | JAMES  | CLERK     | 7698 | 1981-12-03 | 1100 | NULL |      10 |
+|  7902 | FORD   | ANALYST   | 7566 | 1981-12-03 | 3000 | NULL |      20 |
+|  7934 | MILLER | CLERK     | 7782 | 1982-01-23 | 1300 | NULL |      10 |
++-------+--------+-----------+------+------------+------+------+---------+
+14 rows in set (0.00 sec)
+
+mysql>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

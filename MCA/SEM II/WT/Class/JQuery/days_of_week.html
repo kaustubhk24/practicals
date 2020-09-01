@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Month Days Example</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		alert("here");
+		$("li").click(function(){
+			if(($(this).is(".first-child")) || ($(this).is(".firstHalf")))
+			{
+				$("p").text("the week just ha begun!");
+			}
+			else if($(this).is(".contains("wednesday")"))
+			{
+			$("p").text("Congratulations! you are in the middle of week");
+			}
+			else if($(this).is(".secondHalf"))
+			{
+			$("p").text("almost weekend");
+			}
+			else if($(this).is(".weekEnd.WeekEnd1"))
+			{
+			$("p").text("Hurray its weekEnd");
+			}
+
+		});
+
+	});
+</script>
+</head>
+<body>
+<div>
+<h1>Select day of week</h1>
+<ul>
+	<li class="firstHalf">Monday</li>
+	<li class="firstHalf">Tuesday</li>
+
+		<li class="middleWk">Wednesday</li>
+
+			<li class="secondHalf">Thursday</li>
+	<li class="secondHalf">Friday</li>
+	<li class="weekEnd">Saturday</li>
+	<li class="weekEnd">sunday</li>
+
+
+</ul>
+
+
+</div>
+
+
+
+</body>
+</html>

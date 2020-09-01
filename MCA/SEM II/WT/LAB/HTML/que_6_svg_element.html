@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SVG Element</title>
+
+</head>
+<body>
+    <center>
+       <h1>Enter Name</h1>  <input type="text" name="name" id="name"><br><br><br>
+        <button onclick="magic()">See Magic</button><br><br>
+        <svg height="30" width="200">
+  <text x="0" y="15" fill="red" id="idText" font-size="1.5em"></text>
+</svg>
+    </center>
+    <script type="text/javascript">
+        function magic() {
+           
+           var inputVal = document.getElementById("name").value;
+
+
+document.getElementById("idText").textContent = inputVal;
+        }
+
+    </script>
+</body>
+</html>

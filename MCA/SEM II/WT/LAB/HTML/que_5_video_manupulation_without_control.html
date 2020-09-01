@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Video-Manupulation</title>
+
+</head>
+<body>
+    <center>
+        <video width="400" height="400" id="myVd" controls>
+                  <source id="firstVd" src="F:/Practicals/MCA/SEM II/WT/Assets/Chak De India!.mp4" type="video/mp4"></video><br>
+       <button id="btFwd" type="button" onClick="vdFwd()">Forward</button>
+       <button id="btBhd" type="button" onClick="vdRev()">Reverse</button><br>
+       <button id="btTimeset" type="button" onClick="setVdTime()">Set Time</button>
+            <button id="btTimeset" type="button" onClick="getCurrentTime()">Current Time</button>
+            <button id="btChngVd" type="button" onClick="chgVideo()">Change Video</button>
+            <button id="btMute" type="button" onClick="vdMute()">Mute</button>
+            <button id="btVolume" type="button" onClick="vdUnMute()">UnMute</button>
+        </center>
+        <script type="text/javascript">
+            var vd = document.getElementById("myVd");
+           
+            function vdFwd()
+            {
+                vd.currentTime=vd.currentTime+10;
+                vd.play();
+            }
+            function vdRev()
+            {
+                vd.currentTime=vd.currentTime-10;
+                vd.play();
+            }
+
+           
+            function setVdTime()
+            {
+                var time = prompt("Please enter destination time to forward");
+                vd.currentTime=vd.currentTime+time;
+                vd.play();
+            }
+            function getCurrentTime()
+            {
+                alert(vd.currentTime);
+            }
+            function chgVideo()
+            {
+			
+                document.getElementById("firstVd").src="F:/Practicals/MCA/SEM II/WT/Assets/Kabir Singh - Tujhe Kitna Chahne Lage Song - Arijit Singh - Dil Ka Dariya Behe Hi Gaya Full Video -.webm";
+                document.getElementById("myVd").load();
+                document.getElementById("myVd").currentTime=0;
+                document.getElementById("myVd").play();
+            }
+            function vdMute()
+            {
+                vd.muted=true;
+            }
+            function vdUnMute()
+            {
+                vd.muted=false;
+                vd.volume=1.0;
+            }
+        </script>
+</body>
+</html>

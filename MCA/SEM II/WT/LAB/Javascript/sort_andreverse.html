@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to sort the array.</p>
+
+<button onclick="sort()">Sort</button>
+<button onclick="reverse()">Reverse</button>
+<p id="demo"></p>
+
+<script>
+var student = ["Manoj", "Ram", "Laxman", "Bharat"];
+document.getElementById("demo").innerHTML = student;
+
+function reverse(){
+  student.reverse();
+  document.getElementById("demo").innerHTML = student;
+}
+function sort() {
+  student.sort();
+  document.getElementById("demo").innerHTML = student;
+}
+</script>
+
+</body>
+</html>

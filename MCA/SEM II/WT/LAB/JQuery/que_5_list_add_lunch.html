@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lunch List</title>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	 <script>    
+     function addItem(){
+	var ul = document.getElementById("dynamic-list");
+  var candidate = document.getElementById("candidate");
+  var li = document.createElement("li");
+  li.setAttribute('id',candidate.value);
+  li.appendChild(document.createTextNode(candidate.value));
+  ul.appendChild(li);
+} 
+       
+    </script>    
+</head>
+<body>
+<input type="text" id="candidate"/>
+<button onclick="addItem()">Add to List</button> 
+ <br>
+ <h1>Invitees for team lunch</h1><br>
+ <ol id="dynamic-list"></ol>
+
+
+
+</body>
+</html>

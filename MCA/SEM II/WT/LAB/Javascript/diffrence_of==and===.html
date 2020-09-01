@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+	<body>
+	<form onsubmit="compare()">
+		Enter String1:<input type="text" id="n1"><br>
+		Enter String2:<input type="text" id="n2"><br>
+				  <input type="submit" value="submit"><br>
+	</form>
+	<script language="javascript">
+	function compare()
+	{
+	var nm1=document.getElementById("n1").value;
+	var nm2=document.getElementById("n2").value;
+	if(nm1==nm2)
+	alert("The objects are equal");
+	else
+	alert("The objects are not equal");
+	
+	if(nm1===nm2)
+	alert("The objects are identical");
+	else
+	alert("The object are not identical");
+	}
+	</script>
+	</body>
+</html>

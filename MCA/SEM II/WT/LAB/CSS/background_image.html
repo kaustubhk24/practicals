@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>jQuery Setting background-image CSS Property</title>
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#1").click(function(){
+        var imageUrl = "sky.jpg";
+        $("body").css("background-image", "url(" + imageUrl + ")");
+           $("body").css('background-repeat', 'repeat');
+    });    
+    $("#2").click(function(){
+        var imageUrl = "sky.jpg";
+        $("body").css("background-image", "url(" + imageUrl + ") ");
+        $("body").css('background-repeat', 'no-repeat');
+    });
+});
+</script>
+</head>
+<body>
+  
+    <p><button  type="button" id="1">Set Repeat Background  Image</button></p>
+        <p><button  type="button" id="2">Set No Repeat Background  Image</button></p>
+
+</body>
+</html>

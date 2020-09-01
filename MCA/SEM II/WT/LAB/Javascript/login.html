@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+	<body>
+	<form onsubmit="compare()">
+		Enter Username:<input type="text" id="username"><br>
+		Enter Password:<input type="password" id="password"><br>
+				  <input type="submit" value="submit"><br>
+	</form>
+	<script language="javascript">
+	function compare()
+	{
+	var us=document.getElementById("username").value;
+	var ps=document.getElementById("password").value;
+	if(us=="kaustubh" && ps=="kaustubh")
+	{
+		alert("Username & Password are correct!");
+		window.open("substring.html");
+	}else
+	alert("Username or Password is not correct! Try again");
+
+	}
+	</script>
+	</body>
+</html>

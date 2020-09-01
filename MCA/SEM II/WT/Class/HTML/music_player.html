@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Music Player</title>
+</head>
+<body>
+	<div>
+		<h2>Please select music file(s) to proceed.</h2>
+<br><br>
+<input type="file" name="file" multiple onchange="PopulateList()" title="Select Music Files"><br>
+<br> Songs List<br>
+<select name="Music List" id="musicList" size="10">
+<option id="warning">No songs found</option>
+ </select><br>
+ 	<button id="start">Start </button>
+	<button id="Play_pause">Play / Pause</button>
+   <button id="next">Next</button>
+
+<audio id="audio" controls="controls">
+  <source id="audioSource" src=""></source>
+  Your browser does not support the audio format.
+</audio>
+
+
+	</div>
+
+
+
+
+
+<script type="text/javascript">
+	//getting all the elements
+	var fileSelector = document.getElementById("file");
+	var select=document.getElementById("musicList");
+
+	//function for loading audio
+	function PopulateList()
+	{
+
+       var fil = document.getElementById("fileSelector");
+      alert(fil.value);
+  
+
+
+	}
+
+
+
+
+
+
+</script>
+
+
+
+
+</body>
+</html>

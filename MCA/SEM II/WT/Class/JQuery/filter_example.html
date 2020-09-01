@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.frame{
+			border: 2px solid green;
+			
+		}
+	</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("li").filter(".middle").addClass("frame");
+
+		});
+	</script>
+</head>
+<body>
+<div>
+	<ul>
+		<li class="top">Item 1</li>
+		<li class="top">Item 2</li>
+		<li class="middle">Item 3</li>
+		<li class="bottom">Item 4</li>
+		<li class="middle">Item 5</li>
+
+	</ul>
+</div>
+
+
+
+</body>
+</html>

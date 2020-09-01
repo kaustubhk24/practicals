@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mouse Events</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<style type="text/css">
+		h1.highlight,p.highlight{
+			background: yellow;
+			text-decoration: underline;
+			font-weight: bold;
+ 				}
+
+
+	</style>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("p").mouseenter(function(){
+				$(this).addClass("highlight");
+			});
+			$("p").mouseleave(function(){
+				$(this).removeClass("highlight");
+			});
+			$("h1").click(function(){
+				$(this).addClass("highlight");
+			});
+			$("h1").dblclick(function(){
+				$(this).removeClass("highlight");
+			});
+		});
+
+	</script>
+</head>
+<body>
+<p>Place mouse pointer on me.</p>
+<p>Place mouse pointer on me.</p>
+<p>Place mouse pointer on me.</p>
+<h1>Place mouse pointer on me.</h1>
+
+</body>
+</html>
