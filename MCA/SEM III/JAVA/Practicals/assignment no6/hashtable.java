@@ -1,46 +1,47 @@
 
 
 /**
- * Q 1) Write an implementation of hash tables from scratch. Define the following
- *  methods: get(key), put( key, value ), remove(key), containsKey (key), and
- *  size().
+ * Q 1) Write an implementation of hash tables from scratch. Define the
+ * following methods: get(key), put( key, value ), remove(key), containsKey
+ * (key), and size().
  */
 
-import java.util.HashMap;
 
+import java.util.Hashtable;
+ 
  public class hashtable
  {
 
     public static void main(String[] args) {
 
-        HashMap hashMap=new HashMap<>();
+        Hashtable hashTable=new Hashtable<>();
 
         //put(key,value)
-        hashMap.put(1,"Kaustubh");
-        hashMap.put(2,"Mahesh");
-        hashMap.put(3,"Angad");
-        hashMap.put(4,"Sagar");
+        hashTable.put(1,"Kaustubh");
+        hashTable.put(2,"Mahesh");
+        hashTable.put(3,"Angad");
+        hashTable.put(4,"Sagar");
 
-        //printing complete HashMap
-        System.out.println(hashMap);
+        //printing complete hashTable
+        System.out.println(hashTable);
 
         //get(key) method
 
-        System.out.println(hashMap.get(1));
+        System.out.println(hashTable.get(1));
 
         //remove(key)
 
-        hashMap.remove(3);
-        System.out.println(hashMap);
+        hashTable.remove(3);
+        System.out.println(hashTable);
 
         //contains(key)
 
-        System.out.println(hashMap.containsKey(3)); //false
-        System.out.println(hashMap.containsKey(1));//True
+        System.out.println(hashTable.containsKey(3)); //false
+        System.out.println(hashTable.containsKey(1));//True
 
        //size
 
-       System.out.println(hashMap.size());
+       System.out.println(hashTable.size());
         
     }
  }
