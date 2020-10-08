@@ -1,0 +1,2608 @@
+<?xml version="1.0"?>
+<root ptr="0x55abccc03f60" id="0" symbol="11SwRootFrame" lower="1">
+ <sfxViewShells>
+  <SwView>
+   <SfxViewShell ptr="0x55abccbef100" id="0"/>
+   <SwCursorShell>
+    <SwViewShell/>
+    <m_pCurrentCursor>
+     <SwPaM>
+      <point>
+       <SwPosition nNode="12" nContent="0"/>
+      </point>
+     </SwPaM>
+    </m_pCurrentCursor>
+   </SwCursorShell>
+  </SwView>
+ </sfxViewShells>
+ <infos>
+  <bounds left="284" top="284" width="18669" height="136692" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+  <prtBounds left="0" top="0" width="18669" height="136692"/>
+ </infos>
+ <page ptr="0x55abccbf70a0" id="1" symbol="11SwPageFrame" next="208" upper="0" lower="2">
+  <page_status ValidFlyLayout="true" ValidFlyContent="true" ValidFlyInCnt="true" ValidLayout="true" ValidContent="true"/>
+  <infos>
+   <bounds left="7047" top="284" width="11906" height="16838" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+   <prtBounds left="1134" top="1134" width="9638" height="14570"/>
+  </infos>
+  <body ptr="0x55abccbf6df0" id="2" symbol="11SwBodyFrame" upper="1" lower="204">
+   <infos>
+    <bounds left="8181" top="1418" width="9638" height="14570" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+    <prtBounds left="0" top="0" width="9638" height="14570"/>
+   </infos>
+   <txt ptr="0x55abc9e91eb0" id="204" symbol="11SwTextFrame" next="207" upper="2" txtNodeIndex="18" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="1418" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+/**    <Text nLength="3" nType="PortionType::Para" nHeight="241" nWidth="282" Portion="/**"/>
+    <LineBreak nWidth="282" Line="/**"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9f36960" id="207" symbol="11SwTextFrame" next="210" prev="204" upper="2" txtNodeIndex="19" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="1703" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+* Q 1) Write a program to perform CRUD operations using JDBC.    <Text nLength="61" nType="PortionType::Para" nHeight="241" nWidth="6107" Portion="* Q 1) Write a program to perform CRUD operations using JDBC."/>
+    <LineBreak nWidth="6107" Line="* Q 1) Write a program to perform CRUD operations using JDBC."/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9e6fe30" id="210" symbol="11SwTextFrame" next="211" prev="207" upper="2" txtNodeIndex="20" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="1988" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+*/    <Text nLength="2" nType="PortionType::Para" nHeight="241" nWidth="182" Portion="*/"/>
+    <LineBreak nWidth="182" Line="*/"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9f04950" id="211" symbol="11SwTextFrame" next="212" prev="210" upper="2" txtNodeIndex="21" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="2273" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="276"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9ec2e00" id="212" symbol="11SwTextFrame" next="213" prev="211" upper="2" txtNodeIndex="22" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="2558" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+import java.sql.*;    <Text nLength="6" nType="PortionType::Text" nHeight="241" nWidth="647" Portion="import"/>
+    <Text nLength="12" nType="PortionType::Text" nHeight="241" nWidth="954" Portion=" java.sql.*;"/>
+    <LineBreak nWidth="1601" Line="import java.sql.*;"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9e877a0" id="213" symbol="11SwTextFrame" next="214" prev="212" upper="2" txtNodeIndex="23" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="2843" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+import java.util.Scanner;    <Text nLength="6" nType="PortionType::Text" nHeight="241" nWidth="647" Portion="import"/>
+    <Text nLength="19" nType="PortionType::Text" nHeight="241" nWidth="1655" Portion=" java.util.Scanner;"/>
+    <LineBreak nWidth="2302" Line="import java.util.Scanner;"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9f702c0" id="214" symbol="11SwTextFrame" next="215" prev="213" upper="2" txtNodeIndex="24" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="3128" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="276"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d92960" id="215" symbol="11SwTextFrame" next="216" prev="214" upper="2" txtNodeIndex="25" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="3413" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+public class assign2 {    <Text nLength="6" nType="PortionType::Text" nHeight="241" nWidth="576" Portion="public"/>
+    <Text nLength="1" nType="PortionType::Text" nHeight="241" nWidth="49" Portion=" "/>
+    <Text nLength="5" nType="PortionType::Text" nHeight="241" nWidth="452" Portion="class"/>
+    <Text nLength="10" nType="PortionType::Text" nHeight="241" nWidth="878" Portion=" assign2 {"/>
+    <LineBreak nWidth="1955" Line="public class assign2 {"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d894d0" id="216" symbol="11SwTextFrame" next="217" prev="215" upper="2" txtNodeIndex="26" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="3698" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="276"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9faacc0" id="217" symbol="11SwTextFrame" next="218" prev="216" upper="2" txtNodeIndex="27" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="3983" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="276"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9faae30" id="218" symbol="11SwTextFrame" next="219" prev="217" upper="2" txtNodeIndex="28" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="4268" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+public static void main(String[] args) {    <Text nLength="6" nType="PortionType::Text" nHeight="241" nWidth="576" Portion="public"/>
+    <Text nLength="1" nType="PortionType::Text" nHeight="241" nWidth="49" Portion=" "/>
+    <Text nLength="6" nType="PortionType::Text" nHeight="241" nWidth="523" Portion="static"/>
+    <Text nLength="1" nType="PortionType::Text" nHeight="241" nWidth="49" Portion=" "/>
+    <Text nLength="4" nType="PortionType::Text" nHeight="241" nWidth="403" Portion="void"/>
+    <Text nLength="6" nType="PortionType::Text" nHeight="241" nWidth="581" Portion=" main("/>
+    <Text nLength="6" nType="PortionType::Text" nHeight="241" nWidth="572" Portion="String"/>
+    <Text nLength="10" nType="PortionType::Text" nHeight="241" nWidth="796" Portion="[] args) {"/>
+    <LineBreak nWidth="3549" Line="public static void main(String[] args) {"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d67f60" id="219" symbol="11SwTextFrame" next="220" prev="218" upper="2" txtNodeIndex="29" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="4553" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+Connection con = null;    <Text nLength="10" nType="PortionType::Text" nHeight="241" nWidth="1089" Portion="Connection"/>
+    <Text nLength="7" nType="PortionType::Text" nHeight="241" nWidth="603" Portion=" con = "/>
+    <Text nLength="4" nType="PortionType::Text" nHeight="241" nWidth="356" Portion="null"/>
+    <Text nLength="1" nType="PortionType::Text" nHeight="241" nWidth="52" Portion=";"/>
+    <LineBreak nWidth="2100" Line="Connection con = null;"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d681f0" id="220" symbol="11SwTextFrame" next="221" prev="219" upper="2" txtNodeIndex="30" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="4838" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+Scanner sc = new Scanner(System.in);    <Text nLength="7" nType="PortionType::Text" nHeight="241" nWidth="758" Portion="Scanner"/>
+    <Text nLength="6" nType="PortionType::Text" nHeight="241" nWidth="455" Portion=" sc = "/>
+    <Text nLength="3" nType="PortionType::Text" nHeight="241" nWidth="401" Portion="new"/>
+    <Text nLength="20" nType="PortionType::Text" nHeight="241" nWidth="1901" Portion=" Scanner(System.in);"/>
+    <LineBreak nWidth="3515" Line="Scanner sc = new Scanner(System.in);"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d65400" id="221" symbol="11SwTextFrame" next="222" prev="220" upper="2" txtNodeIndex="31" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="5123" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="276"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d65550" id="222" symbol="11SwTextFrame" next="223" prev="221" upper="2" txtNodeIndex="32" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="5408" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+try {    <Text nLength="3" nType="PortionType::Text" nHeight="241" nWidth="274" Portion="try"/>
+    <Text nLength="2" nType="PortionType::Text" nHeight="241" nWidth="119" Portion=" {"/>
+    <LineBreak nWidth="393" Line="try {"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d7f090" id="223" symbol="11SwTextFrame" next="224" prev="222" upper="2" txtNodeIndex="33" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="5693" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="276"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d6a7b0" id="224" symbol="11SwTextFrame" next="225" prev="223" upper="2" txtNodeIndex="34" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="5978" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+/**    <Text nLength="3" nType="PortionType::Para" nHeight="241" nWidth="282" Portion="/**"/>
+    <LineBreak nWidth="282" Line="/**"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9facc00" id="225" symbol="11SwTextFrame" next="226" prev="224" upper="2" txtNodeIndex="35" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="6263" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+* Need to execute first export CLASSPATH=$CLASSPATH:mysql-connector-java-8.0.21.jar    <Text nLength="83" nType="PortionType::Para" nHeight="241" nWidth="8372" Portion="* Need to execute first export CLASSPATH=$CLASSPATH:mysql-connector-java-8.0.21.jar"/>
+    <LineBreak nWidth="8372" Line="* Need to execute first export CLASSPATH=$CLASSPATH:mysql-connector-java-8.0.21.jar"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9face90" id="226" symbol="11SwTextFrame" next="227" prev="225" upper="2" txtNodeIndex="36" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="6548" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+*/    <Text nLength="2" nType="PortionType::Para" nHeight="241" nWidth="182" Portion="*/"/>
+    <LineBreak nWidth="182" Line="*/"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9f9da80" id="227" symbol="11SwTextFrame" next="228" prev="226" upper="2" txtNodeIndex="37" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="6833" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="276"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9fb3560" id="228" symbol="11SwTextFrame" next="229" prev="227" upper="2" txtNodeIndex="38" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="7118" width="9638" height="570" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="570"/>
+    </infos>
+con = DriverManager.getConnection(&quot;jdbc:mysql://localhost:3306/kaustubh?allowPublicKeyRetrieval=true&amp;useSSL=false&quot;, &quot;kaustubh&quot;,    <Text nLength="34" nType="PortionType::Text" nHeight="241" nWidth="3502" Portion="con = DriverManager.getConnection("/>
+    <Text nLength="38" nType="PortionType::Text" nHeight="241" nWidth="3742" Portion="&quot;jdbc:mysql://localhost:3306/kaustubh?"/>
+    <LineBreak nWidth="7244" Line="con = DriverManager.getConnection(&quot;jdbc:mysql://localhost:3306/kaustubh?"/>
+    <Text nLength="42" nType="PortionType::Text" nHeight="241" nWidth="4287" Portion="allowPublicKeyRetrieval=true&amp;useSSL=false&quot;"/>
+    <Text nLength="2" nType="PortionType::Text" nHeight="241" nWidth="100" Portion=", "/>
+    <Text nLength="10" nType="PortionType::Text" nHeight="241" nWidth="1050" Portion="&quot;kaustubh&quot;"/>
+    <Text nLength="1" nType="PortionType::Text" nHeight="241" nWidth="52" Portion=","/>
+    <LineBreak nWidth="5489" Line="allowPublicKeyRetrieval=true&amp;useSSL=false&quot;, &quot;kaustubh&quot;,"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d732f0" id="229" symbol="11SwTextFrame" next="230" prev="228" upper="2" txtNodeIndex="39" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="7688" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+&quot;kaustubh&quot;);    <Text nLength="10" nType="PortionType::Text" nHeight="241" nWidth="1050" Portion="&quot;kaustubh&quot;"/>
+    <Text nLength="2" nType="PortionType::Text" nHeight="241" nWidth="120" Portion=");"/>
+    <LineBreak nWidth="1170" Line="&quot;kaustubh&quot;);"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d7ee00" id="230" symbol="11SwTextFrame" next="231" prev="229" upper="2" txtNodeIndex="40" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="7973" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="276"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d9a400" id="231" symbol="11SwTextFrame" next="232" prev="230" upper="2" txtNodeIndex="41" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="8258" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+// connection TEST    <Text nLength="18" nType="PortionType::Para" nHeight="241" nWidth="1784" Portion="// connection TEST"/>
+    <LineBreak nWidth="1784" Line="// connection TEST"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9fa01f0" id="232" symbol="11SwTextFrame" next="233" prev="231" upper="2" txtNodeIndex="42" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="8543" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+System.out.println(&quot;Connection is successful !!!!!&quot;);    <Text nLength="19" nType="PortionType::Text" nHeight="241" nWidth="1833" Portion="System.out.println("/>
+    <Text nLength="32" nType="PortionType::Text" nHeight="241" nWidth="2815" Portion="&quot;Connection is successful !!!!!&quot;"/>
+    <Text nLength="2" nType="PortionType::Text" nHeight="241" nWidth="120" Portion=");"/>
+    <LineBreak nWidth="4768" Line="System.out.println(&quot;Connection is successful !!!!!&quot;);"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d6c200" id="233" symbol="11SwTextFrame" next="234" prev="232" upper="2" txtNodeIndex="43" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="8828" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="276"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d6c4e0" id="234" symbol="11SwTextFrame" next="235" prev="233" upper="2" txtNodeIndex="44" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="9113" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+// Create table if does not exists    <Text nLength="34" nType="PortionType::Para" nHeight="241" nWidth="3054" Portion="// Create table if does not exists"/>
+    <LineBreak nWidth="3054" Line="// Create table if does not exists"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d84360" id="235" symbol="11SwTextFrame" next="238" prev="234" upper="2" txtNodeIndex="45" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="9398" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+String CREATE_TABLE_SQL = &quot;CREATE TABLE IF NOT EXISTS kaustubh.student (&quot; + &quot;id INT,&quot;    <Text nLength="6" nType="PortionType::Text" nHeight="241" nWidth="572" Portion="String"/>
+    <Text nLength="20" nType="PortionType::Text" nHeight="241" nWidth="2213" Portion=" CREATE_TABLE_SQL = "/>
+    <Text nLength="47" nType="PortionType::Text" nHeight="241" nWidth="4815" Portion="&quot;CREATE TABLE IF NOT EXISTS kaustubh.student (&quot;"/>
+    <Text nLength="3" nType="PortionType::Text" nHeight="241" nWidth="216" Portion=" + "/>
+    <Text nLength="9" nType="PortionType::Text" nHeight="241" nWidth="765" Portion="&quot;id INT,&quot;"/>
+    <LineBreak nWidth="8581" Line="String CREATE_TABLE_SQL = &quot;CREATE TABLE IF NOT EXISTS kaustubh.student (&quot; + &quot;id INT,&quot;"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d84540" id="238" symbol="11SwTextFrame" next="239" prev="235" upper="2" txtNodeIndex="46" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="9683" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
++ &quot;sname VARCHAR(30), &quot; + &quot;sclass VARCHAR(30),&quot; + &quot;PRIMARY KEY (id))&quot;;    <Text nLength="2" nType="PortionType::Text" nHeight="241" nWidth="167" Portion="+ "/>
+    <Text nLength="21" nType="PortionType::Text" nHeight="241" nWidth="2260" Portion="&quot;sname VARCHAR(30), &quot;"/>
+    <Text nLength="3" nType="PortionType::Text" nHeight="241" nWidth="216" Portion=" + "/>
+    <Text nLength="21" nType="PortionType::Text" nHeight="241" nWidth="2135" Portion="&quot;sclass VARCHAR(30),&quot;"/>
+    <Text nLength="3" nType="PortionType::Text" nHeight="241" nWidth="216" Portion=" + "/>
+    <Text nLength="19" nType="PortionType::Text" nHeight="241" nWidth="1923" Portion="&quot;PRIMARY KEY (id))&quot;"/>
+    <Text nLength="1" nType="PortionType::Text" nHeight="241" nWidth="52" Portion=";"/>
+    <LineBreak nWidth="6969" Line="+ &quot;sname VARCHAR(30), &quot; + &quot;sclass VARCHAR(30),&quot; + &quot;PRIMARY KEY (id))&quot;;"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d8adb0" id="239" symbol="11SwTextFrame" next="240" prev="238" upper="2" txtNodeIndex="47" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="9968" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="276"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d8b090" id="240" symbol="11SwTextFrame" next="241" prev="239" upper="2" txtNodeIndex="48" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="10253" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+// end create table if does not exists    <Text nLength="38" nType="PortionType::Para" nHeight="241" nWidth="3431" Portion="// end create table if does not exists"/>
+    <LineBreak nWidth="3431" Line="// end create table if does not exists"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9f9ff60" id="241" symbol="11SwTextFrame" next="242" prev="240" upper="2" txtNodeIndex="49" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="10538" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="276"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d7a270" id="242" symbol="11SwTextFrame" next="243" prev="241" upper="2" txtNodeIndex="50" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="10823" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+Statement stmt = con.createStatement();    <Text nLength="9" nType="PortionType::Text" nHeight="241" nWidth="1009" Portion="Statement"/>
+    <Text nLength="30" nType="PortionType::Text" nHeight="241" nWidth="2917" Portion=" stmt = con.createStatement();"/>
+    <LineBreak nWidth="3926" Line="Statement stmt = con.createStatement();"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d83710" id="243" symbol="11SwTextFrame" next="244" prev="242" upper="2" txtNodeIndex="51" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="11108" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="276"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d87b10" id="244" symbol="11SwTextFrame" next="245" prev="243" upper="2" txtNodeIndex="52" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="11393" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+stmt.executeUpdate(CREATE_TABLE_SQL);    <Text nLength="37" nType="PortionType::Para" nHeight="241" nWidth="4084" Portion="stmt.executeUpdate(CREATE_TABLE_SQL);"/>
+    <LineBreak nWidth="4084" Line="stmt.executeUpdate(CREATE_TABLE_SQL);"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d82a70" id="245" symbol="11SwTextFrame" next="246" prev="244" upper="2" txtNodeIndex="53" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="11678" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="276"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d7c560" id="246" symbol="11SwTextFrame" next="247" prev="245" upper="2" txtNodeIndex="54" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="11963" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+System.out.println(&quot;Table created&quot;);    <Text nLength="19" nType="PortionType::Text" nHeight="241" nWidth="1833" Portion="System.out.println("/>
+    <Text nLength="15" nType="PortionType::Text" nHeight="241" nWidth="1470" Portion="&quot;Table created&quot;"/>
+    <Text nLength="2" nType="PortionType::Text" nHeight="241" nWidth="120" Portion=");"/>
+    <LineBreak nWidth="3423" Line="System.out.println(&quot;Table created&quot;);"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d78f60" id="247" symbol="11SwTextFrame" next="248" prev="246" upper="2" txtNodeIndex="55" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="12248" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="276"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d791f0" id="248" symbol="11SwTextFrame" next="249" prev="247" upper="2" txtNodeIndex="56" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="12533" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+// Some initial fixed insertion queries    <Text nLength="39" nType="PortionType::Para" nHeight="241" nWidth="3502" Portion="// Some initial fixed insertion queries"/>
+    <LineBreak nWidth="3502" Line="// Some initial fixed insertion queries"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9fa8270" id="249" symbol="11SwTextFrame" next="250" prev="248" upper="2" txtNodeIndex="57" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="12818" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="276"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdcebe80" id="250" symbol="11SwTextFrame" next="251" prev="249" upper="2" txtNodeIndex="58" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="13103" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+insert(con, 1, &quot;Kaustubh&quot;, &quot;MCA II&quot;);    <Text nLength="12" nType="PortionType::Text" nHeight="241" nWidth="1058" Portion="insert(con, "/>
+    <Text nLength="1" nType="PortionType::Text" nHeight="241" nWidth="119" Portion="1"/>
+    <Text nLength="2" nType="PortionType::Text" nHeight="241" nWidth="100" Portion=", "/>
+    <Text nLength="10" nType="PortionType::Text" nHeight="241" nWidth="1073" Portion="&quot;Kaustubh&quot;"/>
+    <Text nLength="2" nType="PortionType::Text" nHeight="241" nWidth="100" Portion=", "/>
+    <Text nLength="8" nType="PortionType::Text" nHeight="241" nWidth="794" Portion="&quot;MCA II&quot;"/>
+    <Text nLength="2" nType="PortionType::Text" nHeight="241" nWidth="120" Portion=");"/>
+    <LineBreak nWidth="3364" Line="insert(con, 1, &quot;Kaustubh&quot;, &quot;MCA II&quot;);"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abcd01efb0" id="251" symbol="11SwTextFrame" next="252" prev="250" upper="2" txtNodeIndex="59" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="13388" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+insert(con, 2, &quot;Angad&quot;, &quot;MCA II&quot;);    <Text nLength="12" nType="PortionType::Text" nHeight="241" nWidth="1058" Portion="insert(con, "/>
+    <Text nLength="1" nType="PortionType::Text" nHeight="241" nWidth="119" Portion="2"/>
+    <Text nLength="2" nType="PortionType::Text" nHeight="241" nWidth="100" Portion=", "/>
+    <Text nLength="7" nType="PortionType::Text" nHeight="241" nWidth="773" Portion="&quot;Angad&quot;"/>
+    <Text nLength="2" nType="PortionType::Text" nHeight="241" nWidth="100" Portion=", "/>
+    <Text nLength="8" nType="PortionType::Text" nHeight="241" nWidth="794" Portion="&quot;MCA II&quot;"/>
+    <Text nLength="2" nType="PortionType::Text" nHeight="241" nWidth="120" Portion=");"/>
+    <LineBreak nWidth="3064" Line="insert(con, 2, &quot;Angad&quot;, &quot;MCA II&quot;);"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9e79200" id="252" symbol="11SwTextFrame" next="253" prev="251" upper="2" txtNodeIndex="60" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="13673" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+insert(con, 3, &quot;Sagar&quot;, &quot;MCA III&quot;);    <Text nLength="12" nType="PortionType::Text" nHeight="241" nWidth="1058" Portion="insert(con, "/>
+    <Text nLength="1" nType="PortionType::Text" nHeight="241" nWidth="119" Portion="3"/>
+    <Text nLength="2" nType="PortionType::Text" nHeight="241" nWidth="100" Portion=", "/>
+    <Text nLength="7" nType="PortionType::Text" nHeight="241" nWidth="709" Portion="&quot;Sagar&quot;"/>
+    <Text nLength="2" nType="PortionType::Text" nHeight="241" nWidth="100" Portion=", "/>
+    <Text nLength="9" nType="PortionType::Text" nHeight="241" nWidth="851" Portion="&quot;MCA III&quot;"/>
+    <Text nLength="2" nType="PortionType::Text" nHeight="241" nWidth="120" Portion=");"/>
+    <LineBreak nWidth="3057" Line="insert(con, 3, &quot;Sagar&quot;, &quot;MCA III&quot;);"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdd05dc0" id="253" symbol="11SwTextFrame" next="254" prev="252" upper="2" txtNodeIndex="61" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="13958" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+insert(con, 4, &quot;Rajesh&quot;, &quot;MCA II&quot;);    <Text nLength="12" nType="PortionType::Text" nHeight="241" nWidth="1058" Portion="insert(con, "/>
+    <Text nLength="1" nType="PortionType::Text" nHeight="241" nWidth="119" Portion="4"/>
+    <Text nLength="2" nType="PortionType::Text" nHeight="241" nWidth="100" Portion=", "/>
+    <Text nLength="8" nType="PortionType::Text" nHeight="241" nWidth="794" Portion="&quot;Rajesh&quot;"/>
+    <Text nLength="2" nType="PortionType::Text" nHeight="241" nWidth="100" Portion=", "/>
+    <Text nLength="8" nType="PortionType::Text" nHeight="241" nWidth="794" Portion="&quot;MCA II&quot;"/>
+    <Text nLength="2" nType="PortionType::Text" nHeight="241" nWidth="120" Portion=");"/>
+    <LineBreak nWidth="3085" Line="insert(con, 4, &quot;Rajesh&quot;, &quot;MCA II&quot;);"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9f7bf70" id="254" symbol="11SwTextFrame" next="255" prev="253" upper="2" txtNodeIndex="62" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="14243" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="276"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9fb5110" id="255" symbol="11SwTextFrame" next="256" prev="254" upper="2" txtNodeIndex="63" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="14528" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+// Some initial fixed insertion queries    <Text nLength="39" nType="PortionType::Para" nHeight="241" nWidth="3502" Portion="// Some initial fixed insertion queries"/>
+    <LineBreak nWidth="3502" Line="// Some initial fixed insertion queries"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d80e70" id="256" symbol="11SwTextFrame" next="257" prev="255" upper="2" txtNodeIndex="64" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="14813" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="276"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abcd7bfbd0" id="257" symbol="11SwTextFrame" next="258" prev="256" upper="2" txtNodeIndex="65" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="15098" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+selection(con, sc, stmt);    <Text nLength="25" nType="PortionType::Para" nHeight="241" nWidth="2230" Portion="selection(con, sc, stmt);"/>
+    <LineBreak nWidth="2230" Line="selection(con, sc, stmt);"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9e89370" id="258" symbol="11SwTextFrame" prev="257" upper="2" txtNodeIndex="66" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="15383" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="276"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+  </body>
+ </page>
+ <page ptr="0x55abcde42e20" id="208" symbol="11SwPageFrame" next="236" prev="1" upper="0" lower="209">
+  <page_status ValidFlyLayout="true" ValidFlyContent="true" ValidFlyInCnt="true" ValidLayout="true" ValidContent="true"/>
+  <infos>
+   <bounds left="7047" top="17406" width="11906" height="16838" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+   <prtBounds left="1134" top="1134" width="9638" height="14570"/>
+  </infos>
+  <body ptr="0x55abcd021f50" id="209" symbol="11SwBodyFrame" upper="208" lower="259">
+   <infos>
+    <bounds left="8181" top="18540" width="9638" height="14570" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+    <prtBounds left="0" top="0" width="9638" height="14570"/>
+   </infos>
+   <txt ptr="0x55abc9f64a80" id="259" symbol="11SwTextFrame" next="260" upper="209" txtNodeIndex="67" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="18540" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+} catch (Exception e) {    <Text nLength="2" nType="PortionType::Text" nHeight="241" nWidth="119" Portion="} "/>
+    <Text nLength="5" nType="PortionType::Text" nHeight="241" nWidth="507" Portion="catch"/>
+    <Text nLength="2" nType="PortionType::Text" nHeight="241" nWidth="117" Portion=" ("/>
+    <Text nLength="9" nType="PortionType::Text" nHeight="241" nWidth="945" Portion="Exception"/>
+    <Text nLength="5" nType="PortionType::Text" nHeight="241" nWidth="352" Portion=" e) {"/>
+    <LineBreak nWidth="2040" Line="} catch (Exception e) {"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9e76dd0" id="260" symbol="11SwTextFrame" next="261" prev="259" upper="209" txtNodeIndex="68" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="18825" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+e.printStackTrace();    <Text nLength="20" nType="PortionType::Para" nHeight="241" nWidth="1866" Portion="e.printStackTrace();"/>
+    <LineBreak nWidth="1866" Line="e.printStackTrace();"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdd01000" id="261" symbol="11SwTextFrame" next="262" prev="260" upper="209" txtNodeIndex="69" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="19110" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+}    <Text nLength="1" nType="PortionType::Para" nHeight="241" nWidth="70" Portion="}"/>
+    <LineBreak nWidth="70" Line="}"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abcda28150" id="262" symbol="11SwTextFrame" next="263" prev="261" upper="209" txtNodeIndex="70" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="19395" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+}    <Text nLength="1" nType="PortionType::Para" nHeight="241" nWidth="70" Portion="}"/>
+    <LineBreak nWidth="70" Line="}"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abcda0d1c0" id="263" symbol="11SwTextFrame" next="266" prev="262" upper="209" txtNodeIndex="71" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="19680" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="276"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abcd7c55e0" id="266" symbol="11SwTextFrame" next="267" prev="263" upper="209" txtNodeIndex="72" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="19965" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+static void selection(Connection con, Scanner sc, Statement stmt) {    <Text nLength="6" nType="PortionType::Text" nHeight="241" nWidth="523" Portion="static"/>
+    <Text nLength="1" nType="PortionType::Text" nHeight="241" nWidth="49" Portion=" "/>
+    <Text nLength="4" nType="PortionType::Text" nHeight="241" nWidth="403" Portion="void"/>
+    <Text nLength="11" nType="PortionType::Text" nHeight="241" nWidth="982" Portion=" selection("/>
+    <Text nLength="10" nType="PortionType::Text" nHeight="241" nWidth="1089" Portion="Connection"/>
+    <Text nLength="6" nType="PortionType::Text" nHeight="241" nWidth="488" Portion=" con, "/>
+    <Text nLength="7" nType="PortionType::Text" nHeight="241" nWidth="758" Portion="Scanner"/>
+    <Text nLength="5" nType="PortionType::Text" nHeight="241" nWidth="342" Portion=" sc, "/>
+    <Text nLength="9" nType="PortionType::Text" nHeight="241" nWidth="1009" Portion="Statement"/>
+    <Text nLength="8" nType="PortionType::Text" nHeight="241" nWidth="679" Portion=" stmt) {"/>
+    <LineBreak nWidth="6322" Line="static void selection(Connection con, Scanner sc, Statement stmt) {"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9e3ceb0" id="267" symbol="11SwTextFrame" next="268" prev="266" upper="209" txtNodeIndex="73" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="20250" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+System.out    <Text nLength="10" nType="PortionType::Para" nHeight="241" nWidth="1071" Portion="System.out"/>
+    <LineBreak nWidth="1071" Line="System.out"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdb78d40" id="268" symbol="11SwTextFrame" next="269" prev="267" upper="209" txtNodeIndex="74" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="20535" width="9638" height="570" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="570"/>
+    </infos>
+.println(&quot;Select Operation to Perform :\n1.Insert\n2.Update\n3.Delete\n4.Select\n5.Drop Table\n6.Exit&quot;);    <Text nLength="9" nType="PortionType::Text" nHeight="241" nWidth="760" Portion=".println("/>
+    <Text nLength="85" nType="PortionType::Text" nHeight="241" nWidth="8349" Portion="&quot;Select Operation to Perform :\n1.Insert\n2.Update\n3.Delete\n4.Select\n5.Drop Table\"/>
+    <LineBreak nWidth="9109" Line=".println(&quot;Select Operation to Perform :\n1.Insert\n2.Update\n3.Delete\n4.Select\n5.Drop Table\"/>
+    <Text nLength="8" nType="PortionType::Text" nHeight="241" nWidth="745" Portion="n6.Exit&quot;"/>
+    <Text nLength="2" nType="PortionType::Text" nHeight="241" nWidth="120" Portion=");"/>
+    <LineBreak nWidth="865" Line="n6.Exit&quot;);"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d92c10" id="269" symbol="11SwTextFrame" next="270" prev="268" upper="209" txtNodeIndex="75" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="21105" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="276"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9f96da0" id="270" symbol="11SwTextFrame" next="271" prev="269" upper="209" txtNodeIndex="76" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="21390" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+int choice = sc.nextInt();    <Text nLength="3" nType="PortionType::Text" nHeight="241" nWidth="258" Portion="int"/>
+    <Text nLength="23" nType="PortionType::Text" nHeight="241" nWidth="2014" Portion=" choice = sc.nextInt();"/>
+    <LineBreak nWidth="2272" Line="int choice = sc.nextInt();"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9f7c890" id="271" symbol="11SwTextFrame" next="272" prev="270" upper="209" txtNodeIndex="77" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="21675" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="276"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9fbb530" id="272" symbol="11SwTextFrame" next="273" prev="271" upper="209" txtNodeIndex="78" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="21960" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+switch (choice) {    <Text nLength="6" nType="PortionType::Text" nHeight="241" nWidth="609" Portion="switch"/>
+    <Text nLength="11" nType="PortionType::Text" nHeight="241" nWidth="913" Portion=" (choice) {"/>
+    <LineBreak nWidth="1522" Line="switch (choice) {"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9eceaf0" id="273" symbol="11SwTextFrame" next="274" prev="272" upper="209" txtNodeIndex="79" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="22245" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+case 1:    <Text nLength="4" nType="PortionType::Text" nHeight="241" nWidth="418" Portion="case"/>
+    <Text nLength="1" nType="PortionType::Text" nHeight="241" nWidth="49" Portion=" "/>
+    <Text nLength="1" nType="PortionType::Text" nHeight="241" nWidth="119" Portion="1"/>
+    <Text nLength="1" nType="PortionType::Text" nHeight="241" nWidth="52" Portion=":"/>
+    <LineBreak nWidth="638" Line="case 1:"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9e5ff90" id="274" symbol="11SwTextFrame" next="275" prev="273" upper="209" txtNodeIndex="80" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="22530" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+System.out.println(&quot;Enter Student id ,Student Name &amp; Student Class&quot;);    <Text nLength="19" nType="PortionType::Text" nHeight="241" nWidth="1833" Portion="System.out.println("/>
+    <Text nLength="48" nType="PortionType::Text" nHeight="241" nWidth="4741" Portion="&quot;Enter Student id ,Student Name &amp; Student Class&quot;"/>
+    <Text nLength="2" nType="PortionType::Text" nHeight="241" nWidth="120" Portion=");"/>
+    <LineBreak nWidth="6694" Line="System.out.println(&quot;Enter Student id ,Student Name &amp; Student Class&quot;);"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9fab0c0" id="275" symbol="11SwTextFrame" next="276" prev="274" upper="209" txtNodeIndex="81" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="22815" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+int id=sc.nextInt();    <Text nLength="3" nType="PortionType::Text" nHeight="241" nWidth="258" Portion="int"/>
+    <Text nLength="17" nType="PortionType::Text" nHeight="241" nWidth="1485" Portion=" id=sc.nextInt();"/>
+    <LineBreak nWidth="1743" Line="int id=sc.nextInt();"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d5fac0" id="276" symbol="11SwTextFrame" next="277" prev="275" upper="209" txtNodeIndex="82" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="23100" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+sc.nextLine();    <Text nLength="14" nType="PortionType::Para" nHeight="241" nWidth="1279" Portion="sc.nextLine();"/>
+    <LineBreak nWidth="1279" Line="sc.nextLine();"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d63ec0" id="277" symbol="11SwTextFrame" next="278" prev="276" upper="209" txtNodeIndex="83" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="23385" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="276"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9f7c0c0" id="278" symbol="11SwTextFrame" next="279" prev="277" upper="209" txtNodeIndex="84" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="23670" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+String sname=sc.nextLine();    <Text nLength="6" nType="PortionType::Text" nHeight="241" nWidth="572" Portion="String"/>
+    <Text nLength="21" nType="PortionType::Text" nHeight="241" nWidth="2068" Portion=" sname=sc.nextLine();"/>
+    <LineBreak nWidth="2640" Line="String sname=sc.nextLine();"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abcd020f60" id="279" symbol="11SwTextFrame" next="280" prev="278" upper="209" txtNodeIndex="85" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="23955" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+String sclass=sc.nextLine();    <Text nLength="6" nType="PortionType::Text" nHeight="241" nWidth="572" Portion="String"/>
+    <Text nLength="22" nType="PortionType::Text" nHeight="241" nWidth="1992" Portion=" sclass=sc.nextLine();"/>
+    <LineBreak nWidth="2564" Line="String sclass=sc.nextLine();"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdb803f0" id="280" symbol="11SwTextFrame" next="281" prev="279" upper="209" txtNodeIndex="86" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="24240" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="276"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdce5660" id="281" symbol="11SwTextFrame" next="282" prev="280" upper="209" txtNodeIndex="87" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="24525" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+insert(con, id, sname, sclass);    <Text nLength="31" nType="PortionType::Para" nHeight="241" nWidth="2722" Portion="insert(con, id, sname, sclass);"/>
+    <LineBreak nWidth="2722" Line="insert(con, id, sname, sclass);"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abcce349c0" id="282" symbol="11SwTextFrame" next="283" prev="281" upper="209" txtNodeIndex="88" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="24810" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+selection(con, sc, stmt);    <Text nLength="25" nType="PortionType::Para" nHeight="241" nWidth="2230" Portion="selection(con, sc, stmt);"/>
+    <LineBreak nWidth="2230" Line="selection(con, sc, stmt);"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abccf7e1b0" id="283" symbol="11SwTextFrame" next="284" prev="282" upper="209" txtNodeIndex="89" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="25095" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+break;    <Text nLength="5" nType="PortionType::Text" nHeight="241" nWidth="541" Portion="break"/>
+    <Text nLength="1" nType="PortionType::Text" nHeight="241" nWidth="52" Portion=";"/>
+    <LineBreak nWidth="593" Line="break;"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9f48ce0" id="284" symbol="11SwTextFrame" next="285" prev="283" upper="209" txtNodeIndex="90" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="25380" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="276"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9f33460" id="285" symbol="11SwTextFrame" next="286" prev="284" upper="209" txtNodeIndex="91" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="25665" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+case 2:    <Text nLength="4" nType="PortionType::Text" nHeight="241" nWidth="418" Portion="case"/>
+    <Text nLength="1" nType="PortionType::Text" nHeight="241" nWidth="49" Portion=" "/>
+    <Text nLength="1" nType="PortionType::Text" nHeight="241" nWidth="119" Portion="2"/>
+    <Text nLength="1" nType="PortionType::Text" nHeight="241" nWidth="52" Portion=":"/>
+    <LineBreak nWidth="638" Line="case 2:"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9f37ea0" id="286" symbol="11SwTextFrame" next="287" prev="285" upper="209" txtNodeIndex="92" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="25950" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="276"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9f5fa00" id="287" symbol="11SwTextFrame" next="288" prev="286" upper="209" txtNodeIndex="93" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="26235" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+System.out.println(&quot;Enter ID to Update &amp; new Class&quot;);    <Text nLength="19" nType="PortionType::Text" nHeight="241" nWidth="1833" Portion="System.out.println("/>
+    <Text nLength="32" nType="PortionType::Text" nHeight="241" nWidth="3126" Portion="&quot;Enter ID to Update &amp; new Class&quot;"/>
+    <Text nLength="2" nType="PortionType::Text" nHeight="241" nWidth="120" Portion=");"/>
+    <LineBreak nWidth="5079" Line="System.out.println(&quot;Enter ID to Update &amp; new Class&quot;);"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9ddef00" id="288" symbol="11SwTextFrame" next="289" prev="287" upper="209" txtNodeIndex="94" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="26520" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+int sid=sc.nextInt();    <Text nLength="3" nType="PortionType::Text" nHeight="241" nWidth="258" Portion="int"/>
+    <Text nLength="18" nType="PortionType::Text" nHeight="241" nWidth="1578" Portion=" sid=sc.nextInt();"/>
+    <LineBreak nWidth="1836" Line="int sid=sc.nextInt();"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9f344d0" id="289" symbol="11SwTextFrame" next="290" prev="288" upper="209" txtNodeIndex="95" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="26805" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+sc.nextLine();    <Text nLength="14" nType="PortionType::Para" nHeight="241" nWidth="1279" Portion="sc.nextLine();"/>
+    <LineBreak nWidth="1279" Line="sc.nextLine();"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9f75ab0" id="290" symbol="11SwTextFrame" next="291" prev="289" upper="209" txtNodeIndex="96" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="27090" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+String ssclass=sc.nextLine();    <Text nLength="6" nType="PortionType::Text" nHeight="241" nWidth="572" Portion="String"/>
+    <Text nLength="23" nType="PortionType::Text" nHeight="241" nWidth="2086" Portion=" ssclass=sc.nextLine();"/>
+    <LineBreak nWidth="2658" Line="String ssclass=sc.nextLine();"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9f2a300" id="291" symbol="11SwTextFrame" next="294" prev="290" upper="209" txtNodeIndex="97" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="27375" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+updateData(con, sid, ssclass);    <Text nLength="30" nType="PortionType::Para" nHeight="241" nWidth="2765" Portion="updateData(con, sid, ssclass);"/>
+    <LineBreak nWidth="2765" Line="updateData(con, sid, ssclass);"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9e9a3c0" id="294" symbol="11SwTextFrame" next="295" prev="291" upper="209" txtNodeIndex="98" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="27660" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+selection(con, sc, stmt);    <Text nLength="25" nType="PortionType::Para" nHeight="241" nWidth="2230" Portion="selection(con, sc, stmt);"/>
+    <LineBreak nWidth="2230" Line="selection(con, sc, stmt);"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9eb6440" id="295" symbol="11SwTextFrame" next="296" prev="294" upper="209" txtNodeIndex="99" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="27945" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+break;    <Text nLength="5" nType="PortionType::Text" nHeight="241" nWidth="541" Portion="break"/>
+    <Text nLength="1" nType="PortionType::Text" nHeight="241" nWidth="52" Portion=";"/>
+    <LineBreak nWidth="593" Line="break;"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9fa8a80" id="296" symbol="11SwTextFrame" next="297" prev="295" upper="209" txtNodeIndex="100" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="28230" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="276"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abcd43a530" id="297" symbol="11SwTextFrame" next="298" prev="296" upper="209" txtNodeIndex="101" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="28515" width="9638" height="568" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="283" width="9638" height="285"/>
+    </infos>
+case 3:    <Text nLength="4" nType="PortionType::Text" nHeight="241" nWidth="418" Portion="case"/>
+    <Text nLength="1" nType="PortionType::Text" nHeight="241" nWidth="49" Portion=" "/>
+    <Text nLength="1" nType="PortionType::Text" nHeight="241" nWidth="119" Portion="3"/>
+    <Text nLength="1" nType="PortionType::Text" nHeight="241" nWidth="52" Portion=":"/>
+    <LineBreak nWidth="638" Line="case 3:"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9e552b0" id="298" symbol="11SwTextFrame" next="299" prev="297" upper="209" txtNodeIndex="102" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="29083" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+System.out.println(&quot;Enter ID to Delete&quot;);    <Text nLength="19" nType="PortionType::Text" nHeight="241" nWidth="1833" Portion="System.out.println("/>
+    <Text nLength="20" nType="PortionType::Text" nHeight="241" nWidth="1895" Portion="&quot;Enter ID to Delete&quot;"/>
+    <Text nLength="2" nType="PortionType::Text" nHeight="241" nWidth="120" Portion=");"/>
+    <LineBreak nWidth="3848" Line="System.out.println(&quot;Enter ID to Delete&quot;);"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9f5b3e0" id="299" symbol="11SwTextFrame" next="300" prev="298" upper="209" txtNodeIndex="103" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="29368" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+delete(con, sc.nextInt());    <Text nLength="26" nType="PortionType::Para" nHeight="241" nWidth="2332" Portion="delete(con, sc.nextInt());"/>
+    <LineBreak nWidth="2332" Line="delete(con, sc.nextInt());"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9ea67d0" id="300" symbol="11SwTextFrame" next="301" prev="299" upper="209" txtNodeIndex="104" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="29653" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+selection(con, sc, stmt);    <Text nLength="25" nType="PortionType::Para" nHeight="241" nWidth="2230" Portion="selection(con, sc, stmt);"/>
+    <LineBreak nWidth="2230" Line="selection(con, sc, stmt);"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdafc090" id="301" symbol="11SwTextFrame" next="302" prev="300" upper="209" txtNodeIndex="105" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="29938" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+break;    <Text nLength="5" nType="PortionType::Text" nHeight="241" nWidth="541" Portion="break"/>
+    <Text nLength="1" nType="PortionType::Text" nHeight="241" nWidth="52" Portion=";"/>
+    <LineBreak nWidth="593" Line="break;"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9eab640" id="302" symbol="11SwTextFrame" next="303" prev="301" upper="209" txtNodeIndex="106" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="30223" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="276"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9f48010" id="303" symbol="11SwTextFrame" next="304" prev="302" upper="209" txtNodeIndex="107" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="30508" width="9638" height="568" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="283" width="9638" height="285"/>
+    </infos>
+case 4:    <Text nLength="4" nType="PortionType::Text" nHeight="241" nWidth="418" Portion="case"/>
+    <Text nLength="1" nType="PortionType::Text" nHeight="241" nWidth="49" Portion=" "/>
+    <Text nLength="1" nType="PortionType::Text" nHeight="241" nWidth="119" Portion="4"/>
+    <Text nLength="1" nType="PortionType::Text" nHeight="241" nWidth="52" Portion=":"/>
+    <LineBreak nWidth="638" Line="case 4:"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abce0007f0" id="304" symbol="11SwTextFrame" next="305" prev="303" upper="209" txtNodeIndex="108" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="31076" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+showData(con);    <Text nLength="14" nType="PortionType::Para" nHeight="241" nWidth="1470" Portion="showData(con);"/>
+    <LineBreak nWidth="1470" Line="showData(con);"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d7b960" id="305" symbol="11SwTextFrame" next="306" prev="304" upper="209" txtNodeIndex="109" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="31361" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+selection(con, sc, stmt);    <Text nLength="25" nType="PortionType::Para" nHeight="241" nWidth="2230" Portion="selection(con, sc, stmt);"/>
+    <LineBreak nWidth="2230" Line="selection(con, sc, stmt);"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9dbf3e0" id="306" symbol="11SwTextFrame" next="307" prev="305" upper="209" txtNodeIndex="110" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="31646" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+break;    <Text nLength="5" nType="PortionType::Text" nHeight="241" nWidth="541" Portion="break"/>
+    <Text nLength="1" nType="PortionType::Text" nHeight="241" nWidth="52" Portion=";"/>
+    <LineBreak nWidth="593" Line="break;"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9f337e0" id="307" symbol="11SwTextFrame" next="308" prev="306" upper="209" txtNodeIndex="111" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="31931" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Text nLength="0" nType="PortionType::Para" nHeight="276"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9e5c960" id="308" symbol="11SwTextFrame" next="309" prev="307" upper="209" txtNodeIndex="112" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="32216" width="9638" height="568" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="283" width="9638" height="285"/>
+    </infos>
+case 5:    <Text nLength="4" nType="PortionType::Text" nHeight="241" nWidth="418" Portion="case"/>
+    <Text nLength="1" nType="PortionType::Text" nHeight="241" nWidth="49" Portion=" "/>
+    <Text nLength="1" nType="PortionType::Text" nHeight="241" nWidth="119" Portion="5"/>
+    <Text nLength="1" nType="PortionType::Text" nHeight="241" nWidth="52" Portion=":"/>
+    <LineBreak nWidth="638" Line="case 5:"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9e3ca90" id="309" symbol="11SwTextFrame" prev="308" upper="209" txtNodeIndex="113" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="32784" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+try {    <Text nLength="3" nType="PortionType::Text" nHeight="241" nWidth="274" Portion="try"/>
+    <Text nLength="2" nType="PortionType::Text" nHeight="241" nWidth="119" Portion=" {"/>
+    <LineBreak nWidth="393" Line="try {"/>
+    <Finish/>
+   </txt>
+  </body>
+ </page>
+ <page ptr="0x55abcde87fe0" id="236" symbol="11SwPageFrame" next="264" prev="208" upper="0" lower="237">
+  <page_status ValidFlyLayout="false" ValidFlyContent="false" ValidFlyInCnt="false" ValidLayout="false" ValidContent="false"/>
+  <infos>
+   <bounds left="7047" top="34528" width="11906" height="16838" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+   <prtBounds left="1134" top="1134" width="9638" height="14570"/>
+  </infos>
+  <body ptr="0x55abcd439ad0" id="237" symbol="11SwBodyFrame" upper="236" lower="310">
+   <infos>
+    <bounds left="8181" top="35662" width="9638" height="14570" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+    <prtBounds left="0" top="0" width="9638" height="14570"/>
+   </infos>
+   <txt ptr="0x55abc9ddb4e0" id="310" symbol="11SwTextFrame" next="311" upper="237" txtNodeIndex="114" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="35662" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+stmt.executeUpdate(&quot;DELETE from student&quot;);    <Text nLength="19" nType="PortionType::Text" nHeight="241" nWidth="2022" Portion="stmt.executeUpdate("/>
+    <Text nLength="21" nType="PortionType::Text" nHeight="241" nWidth="2221" Portion="&quot;DELETE from student&quot;"/>
+    <Text nLength="2" nType="PortionType::Text" nHeight="241" nWidth="120" Portion=");"/>
+    <LineBreak nWidth="4363" Line="stmt.executeUpdate(&quot;DELETE from student&quot;);"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9ddb120" id="311" symbol="11SwTextFrame" next="312" prev="310" upper="237" txtNodeIndex="115" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="35947" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+System.out.println(&quot;Student Table DROPPED . Program needs to restart to fire initial queries&quot;);    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9e4f0e0" id="312" symbol="11SwTextFrame" next="313" prev="311" upper="237" txtNodeIndex="116" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="36232" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+sc.close();    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9ebdc80" id="313" symbol="11SwTextFrame" next="314" prev="312" upper="237" txtNodeIndex="117" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="36517" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+con.close();    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9e42550" id="314" symbol="11SwTextFrame" next="315" prev="313" upper="237" txtNodeIndex="118" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="36802" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9daf530" id="315" symbol="11SwTextFrame" next="316" prev="314" upper="237" txtNodeIndex="119" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="37087" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+} catch (SQLException e) {    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdb7de10" id="316" symbol="11SwTextFrame" next="317" prev="315" upper="237" txtNodeIndex="120" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="37372" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+e.printStackTrace();    <Finish/>
+   </txt>
+   <txt ptr="0x55abce001ae0" id="317" symbol="11SwTextFrame" next="318" prev="316" upper="237" txtNodeIndex="121" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="37657" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+}    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9e22e00" id="318" symbol="11SwTextFrame" next="319" prev="317" upper="237" txtNodeIndex="122" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="37942" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+break;    <Finish/>
+   </txt>
+   <txt ptr="0x55abcddb3820" id="319" symbol="11SwTextFrame" next="322" prev="318" upper="237" txtNodeIndex="123" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="38227" width="9638" height="570" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="570"/>
+    </infos>
+*    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9b71e20" id="322" symbol="11SwTextFrame" next="323" prev="319" upper="237" txtNodeIndex="124" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="38797" width="9638" height="568" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="283" width="9638" height="285"/>
+    </infos>
+case 6: System.exit(0);    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9f23e00" id="323" symbol="11SwTextFrame" next="324" prev="322" upper="237" txtNodeIndex="125" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="39365" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+break;    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdcfdb50" id="324" symbol="11SwTextFrame" next="325" prev="323" upper="237" txtNodeIndex="126" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="39650" width="9638" height="570" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="570"/>
+    </infos>
+*    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9db9780" id="325" symbol="11SwTextFrame" next="326" prev="324" upper="237" txtNodeIndex="127" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="40220" width="9638" height="568" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="283" width="9638" height="285"/>
+    </infos>
+default:System.out.println(&quot;The option you selected was invalid\nPlease try again?&quot;);    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d5de00" id="326" symbol="11SwTextFrame" next="327" prev="325" upper="237" txtNodeIndex="128" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="40788" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+selection(con, sc,stmt);    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9e57360" id="327" symbol="11SwTextFrame" next="328" prev="326" upper="237" txtNodeIndex="129" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="41073" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+break;    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9dda070" id="328" symbol="11SwTextFrame" next="329" prev="327" upper="237" txtNodeIndex="130" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="41358" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9dbe7e0" id="329" symbol="11SwTextFrame" next="330" prev="328" upper="237" txtNodeIndex="131" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="41643" width="9638" height="568" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="283" width="9638" height="285"/>
+    </infos>
+}    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9ebab90" id="330" symbol="11SwTextFrame" next="331" prev="329" upper="237" txtNodeIndex="132" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="42211" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9ead830" id="331" symbol="11SwTextFrame" next="332" prev="330" upper="237" txtNodeIndex="133" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="42496" width="9638" height="568" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="283" width="9638" height="285"/>
+    </infos>
+}    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdcd6200" id="332" symbol="11SwTextFrame" next="333" prev="331" upper="237" txtNodeIndex="134" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="43064" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdcd1000" id="333" symbol="11SwTextFrame" next="334" prev="332" upper="237" txtNodeIndex="135" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="43349" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+static void insert(Connection con,Integer sid,String name, String ssclass){    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdcca600" id="334" symbol="11SwTextFrame" next="335" prev="333" upper="237" txtNodeIndex="136" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="43634" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdcc1e00" id="335" symbol="11SwTextFrame" next="336" prev="334" upper="237" txtNodeIndex="137" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="43919" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+try {    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdcba000" id="336" symbol="11SwTextFrame" next="337" prev="335" upper="237" txtNodeIndex="138" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="44204" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+String sql = &quot;INSERT INTO student (id, sname, sclass) VALUES (?, ?, ?)&quot;;    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdcb7e00" id="337" symbol="11SwTextFrame" next="338" prev="336" upper="237" txtNodeIndex="139" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="44489" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+PreparedStatement statement = con.prepareStatement(sql);    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdca3a00" id="338" symbol="11SwTextFrame" next="339" prev="337" upper="237" txtNodeIndex="140" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="44774" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+statement.setInt(1, sid);    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdca1a00" id="339" symbol="11SwTextFrame" next="340" prev="338" upper="237" txtNodeIndex="141" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="45059" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+statement.setString(2, name);    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc9ee00" id="340" symbol="11SwTextFrame" next="341" prev="339" upper="237" txtNodeIndex="142" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="45344" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+statement.setString(3, ssclass);    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc9ac00" id="341" symbol="11SwTextFrame" next="342" prev="340" upper="237" txtNodeIndex="143" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="45629" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+int rowsInserted = statement.executeUpdate();    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc98600" id="342" symbol="11SwTextFrame" next="343" prev="341" upper="237" txtNodeIndex="144" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="45914" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+if (rowsInserted &gt; 0) {    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc96a00" id="343" symbol="11SwTextFrame" next="344" prev="342" upper="237" txtNodeIndex="145" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="46199" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+System.out.println(&quot;A new student was inserted successfully!&quot;);    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc93e00" id="344" symbol="11SwTextFrame" next="345" prev="343" upper="237" txtNodeIndex="146" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="46484" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+}    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc8e200" id="345" symbol="11SwTextFrame" next="346" prev="344" upper="237" txtNodeIndex="147" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="46769" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc8cc00" id="346" symbol="11SwTextFrame" next="347" prev="345" upper="237" txtNodeIndex="148" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="47054" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+} catch (Exception e) {    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc8b800" id="347" symbol="11SwTextFrame" next="350" prev="346" upper="237" txtNodeIndex="149" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="47339" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+e.printStackTrace();    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc89600" id="350" symbol="11SwTextFrame" next="351" prev="347" upper="237" txtNodeIndex="150" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="47624" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc88200" id="351" symbol="11SwTextFrame" next="352" prev="350" upper="237" txtNodeIndex="151" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="47909" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+}    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc87600" id="352" symbol="11SwTextFrame" next="353" prev="351" upper="237" txtNodeIndex="152" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="48194" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc84600" id="353" symbol="11SwTextFrame" next="354" prev="352" upper="237" txtNodeIndex="153" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="48479" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+}    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc84200" id="354" symbol="11SwTextFrame" next="355" prev="353" upper="237" txtNodeIndex="154" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="48764" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc79600" id="355" symbol="11SwTextFrame" next="356" prev="354" upper="237" txtNodeIndex="155" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="49049" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+static void showData(Connection con) {    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc79200" id="356" symbol="11SwTextFrame" next="357" prev="355" upper="237" txtNodeIndex="156" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="49334" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+try {    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc75000" id="357" symbol="11SwTextFrame" next="358" prev="356" upper="237" txtNodeIndex="157" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="49619" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc6f400" id="358" symbol="11SwTextFrame" prev="357" upper="237" txtNodeIndex="158" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="49904" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+String selectSql = &quot;SELECT * FROM student&quot;;    <Finish/>
+   </txt>
+  </body>
+ </page>
+ <page ptr="0x55abce011270" id="264" symbol="11SwPageFrame" next="292" prev="236" upper="0" lower="265">
+  <page_status ValidFlyLayout="false" ValidFlyContent="false" ValidFlyInCnt="false" ValidLayout="false" ValidContent="false"/>
+  <infos>
+   <bounds left="7047" top="51650" width="11906" height="16838" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+   <prtBounds left="1134" top="1134" width="9638" height="14570"/>
+  </infos>
+  <body ptr="0x55abcd721b20" id="265" symbol="11SwBodyFrame" upper="264" lower="359">
+   <infos>
+    <bounds left="8181" top="52784" width="9638" height="14570" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+    <prtBounds left="0" top="0" width="9638" height="14570"/>
+   </infos>
+   <txt ptr="0x55abcdc6f000" id="359" symbol="11SwTextFrame" next="360" upper="265" txtNodeIndex="159" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="52784" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+Statement selectStatement = con.createStatement();    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc6e200" id="360" symbol="11SwTextFrame" next="361" prev="359" upper="265" txtNodeIndex="160" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="53069" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+ResultSet result = selectStatement.executeQuery(selectSql);    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc6bc00" id="361" symbol="11SwTextFrame" next="362" prev="360" upper="265" txtNodeIndex="161" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="53354" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+int count = 0;    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc6b800" id="362" symbol="11SwTextFrame" next="363" prev="361" upper="265" txtNodeIndex="162" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="53639" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+while (result.next()) {    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc67600" id="363" symbol="11SwTextFrame" next="364" prev="362" upper="265" txtNodeIndex="163" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="53924" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+String id = result.getString(&quot;id&quot;);    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc67200" id="364" symbol="11SwTextFrame" next="365" prev="363" upper="265" txtNodeIndex="164" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="54209" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+String sname = result.getString(&quot;sname&quot;);    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc66200" id="365" symbol="11SwTextFrame" next="366" prev="364" upper="265" txtNodeIndex="165" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="54494" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+String sclass = result.getString(&quot;sclass&quot;);    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc64c00" id="366" symbol="11SwTextFrame" next="367" prev="365" upper="265" txtNodeIndex="166" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="54779" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+String output = &quot;Student #%d: %s - %s - %s&quot;;    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc64000" id="367" symbol="11SwTextFrame" next="368" prev="366" upper="265" txtNodeIndex="167" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="55064" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+System.out.println(String.format(output, ++count, id, sname, sclass));    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc63a00" id="368" symbol="11SwTextFrame" next="369" prev="367" upper="265" txtNodeIndex="168" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="55349" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+}    <Finish/>
+   </txt>
+   <txt ptr="0x55abcd108e00" id="369" symbol="11SwTextFrame" next="370" prev="368" upper="265" txtNodeIndex="169" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="55634" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+} catch (Exception e) {    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc63600" id="370" symbol="11SwTextFrame" next="371" prev="369" upper="265" txtNodeIndex="170" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="55919" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc63200" id="371" symbol="11SwTextFrame" next="372" prev="370" upper="265" txtNodeIndex="171" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="56204" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+e.printStackTrace();    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc62600" id="372" symbol="11SwTextFrame" next="373" prev="371" upper="265" txtNodeIndex="172" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="56489" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+}    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc60e00" id="373" symbol="11SwTextFrame" next="374" prev="372" upper="265" txtNodeIndex="173" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="56774" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+}    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc5d800" id="374" symbol="11SwTextFrame" next="375" prev="373" upper="265" txtNodeIndex="174" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="57059" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc5d400" id="375" symbol="11SwTextFrame" next="378" prev="374" upper="265" txtNodeIndex="175" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="57344" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+static void updateData(Connection con,Integer id,String sclass) {    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc5be00" id="378" symbol="11SwTextFrame" next="379" prev="375" upper="265" txtNodeIndex="176" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="57629" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+try {    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc5ae00" id="379" symbol="11SwTextFrame" next="380" prev="378" upper="265" txtNodeIndex="177" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="57914" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+String updateSql = &quot;UPDATE student SET sclass=? WHERE id=?&quot;;    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc5aa00" id="380" symbol="11SwTextFrame" next="381" prev="379" upper="265" txtNodeIndex="178" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="58199" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+PreparedStatement updateStatement = con.prepareStatement(updateSql);    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc5a600" id="381" symbol="11SwTextFrame" next="382" prev="380" upper="265" txtNodeIndex="179" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="58484" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+updateStatement.setString(1, &quot;MCA I&quot;);    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc59e00" id="382" symbol="11SwTextFrame" next="383" prev="381" upper="265" txtNodeIndex="180" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="58769" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+updateStatement.setInt(2, 4);    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc59a00" id="383" symbol="11SwTextFrame" next="384" prev="382" upper="265" txtNodeIndex="181" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="59054" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+int rowsUpdated = updateStatement.executeUpdate();    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc59600" id="384" symbol="11SwTextFrame" next="385" prev="383" upper="265" txtNodeIndex="182" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="59339" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+if (rowsUpdated &gt; 0) {    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc59200" id="385" symbol="11SwTextFrame" next="386" prev="384" upper="265" txtNodeIndex="183" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="59624" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+System.out.println(&quot;An existing student was updated successfully!&quot;);    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc58400" id="386" symbol="11SwTextFrame" next="387" prev="385" upper="265" txtNodeIndex="184" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="59909" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+}    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc58000" id="387" symbol="11SwTextFrame" next="388" prev="386" upper="265" txtNodeIndex="185" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="60194" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc57c00" id="388" symbol="11SwTextFrame" next="389" prev="387" upper="265" txtNodeIndex="186" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="60479" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+} catch (Exception e) {    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc57800" id="389" symbol="11SwTextFrame" next="390" prev="388" upper="265" txtNodeIndex="187" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="60764" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+e.printStackTrace();    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc57200" id="390" symbol="11SwTextFrame" next="391" prev="389" upper="265" txtNodeIndex="188" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="61049" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+}    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc56e00" id="391" symbol="11SwTextFrame" next="392" prev="390" upper="265" txtNodeIndex="189" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="61334" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+}    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc56a00" id="392" symbol="11SwTextFrame" next="393" prev="391" upper="265" txtNodeIndex="190" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="61619" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc56600" id="393" symbol="11SwTextFrame" next="394" prev="392" upper="265" txtNodeIndex="191" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="61904" width="9638" height="568" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="283" width="9638" height="285"/>
+    </infos>
+static void delete(Connection con,Integer sid)    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc55000" id="394" symbol="11SwTextFrame" next="395" prev="393" upper="265" txtNodeIndex="192" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="62472" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+{    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc54c00" id="395" symbol="11SwTextFrame" next="396" prev="394" upper="265" txtNodeIndex="193" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="62757" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+try {    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc54800" id="396" symbol="11SwTextFrame" next="397" prev="395" upper="265" txtNodeIndex="194" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="63042" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+String deleteSql = &quot;DELETE FROM student WHERE id=?&quot;;    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc54200" id="397" symbol="11SwTextFrame" next="398" prev="396" upper="265" txtNodeIndex="195" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="63327" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+PreparedStatement deletestatement = con.prepareStatement(deleteSql);    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc53e00" id="398" symbol="11SwTextFrame" next="399" prev="397" upper="265" txtNodeIndex="196" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="63612" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+deletestatement.setInt(1, sid);    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc53a00" id="399" symbol="11SwTextFrame" next="400" prev="398" upper="265" txtNodeIndex="197" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="63897" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+int rowsDeleted = deletestatement.executeUpdate();    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc52000" id="400" symbol="11SwTextFrame" next="401" prev="399" upper="265" txtNodeIndex="198" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="64182" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+if (rowsDeleted &gt; 0) {    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc51c00" id="401" symbol="11SwTextFrame" next="402" prev="400" upper="265" txtNodeIndex="199" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="64467" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+System.out.println(&quot;A Student was deleted successfully!&quot;);    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdcb4600" id="402" symbol="11SwTextFrame" next="403" prev="401" upper="265" txtNodeIndex="200" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="64752" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+}    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc4fe00" id="403" symbol="11SwTextFrame" next="406" prev="402" upper="265" txtNodeIndex="201" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="65037" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+} catch (Exception e) {    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdcd7c00" id="406" symbol="11SwTextFrame" next="407" prev="403" upper="265" txtNodeIndex="202" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="65322" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+e.printStackTrace();    <Finish/>
+   </txt>
+   <txt ptr="0x55abcd108a00" id="407" symbol="11SwTextFrame" next="408" prev="406" upper="265" txtNodeIndex="203" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="65607" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+}    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9f18090" id="408" symbol="11SwTextFrame" next="409" prev="407" upper="265" txtNodeIndex="204" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="65892" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+}    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9f6f400" id="409" symbol="11SwTextFrame" next="410" prev="408" upper="265" txtNodeIndex="205" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="66177" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9f59af0" id="410" symbol="11SwTextFrame" next="411" prev="409" upper="265" txtNodeIndex="206" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="66462" width="9638" height="568" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="283" width="9638" height="285"/>
+    </infos>
+}    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9f59890" id="411" symbol="11SwTextFrame" prev="410" upper="265" txtNodeIndex="207" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="67030" width="9638" height="285" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="285"/>
+    </infos>
+    <Finish/>
+   </txt>
+  </body>
+ </page>
+ <page ptr="0x55abce015a20" id="292" symbol="11SwPageFrame" next="519" prev="264" upper="0" lower="293">
+  <page_status ValidFlyLayout="false" ValidFlyContent="false" ValidFlyInCnt="false" ValidLayout="false" ValidContent="false"/>
+  <infos>
+   <bounds left="7047" top="68772" width="11906" height="16838" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+   <prtBounds left="1134" top="1134" width="9638" height="14570"/>
+  </infos>
+  <body ptr="0x55abcded6b50" id="293" symbol="11SwBodyFrame" upper="292" lower="412">
+   <infos>
+    <bounds left="8181" top="69906" width="9638" height="14570" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+    <prtBounds left="0" top="0" width="9638" height="14570"/>
+   </infos>
+   <txt ptr="0x55abcdc97920" id="412" symbol="11SwTextFrame" next="4" upper="293" txtNodeIndex="208" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="69906" width="9638" height="276" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="276"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abcd01f570" id="4" symbol="11SwTextFrame" next="416" prev="412" upper="293" txtNodeIndex="209" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="70182" width="9638" height="276" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="276"/>
+    </infos>
+Output:    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9fb9890" id="416" symbol="11SwTextFrame" next="415" prev="4" upper="293" txtNodeIndex="210" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="70458" width="9638" height="276" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="276"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9fa2e30" id="415" symbol="11SwTextFrame" next="417" prev="416" upper="293" txtNodeIndex="211" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="70734" width="9638" height="848" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="848"/>
+    </infos>
+kaustubh@kaustubh-Lenovo-G50-80:/media/kaustubh/A/Practicals/practicals/MCA/SEM III/JAVA/Practicals/assignment no7$ javac assign2.java    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdd08270" id="417" symbol="11SwTextFrame" next="418" prev="415" upper="293" txtNodeIndex="212" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="71582" width="9638" height="840" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="840"/>
+    </infos>
+kaustubh@kaustubh-Lenovo-G50-80:/media/kaustubh/A/Practicals/practicals/MCA/SEM III/JAVA/Practicals/assignment no7$ java assign2    <Finish/>
+   </txt>
+   <txt ptr="0x55abcddf26d0" id="418" symbol="11SwTextFrame" next="419" prev="417" upper="293" txtNodeIndex="213" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="72422" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+Connection is successful !!!!!    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9f17a60" id="419" symbol="11SwTextFrame" next="420" prev="418" upper="293" txtNodeIndex="214" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="72702" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+Table created    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9efb4f0" id="420" symbol="11SwTextFrame" next="421" prev="419" upper="293" txtNodeIndex="215" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="72982" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+A new student was inserted successfully!    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9f27840" id="421" symbol="11SwTextFrame" next="422" prev="420" upper="293" txtNodeIndex="216" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="73262" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+A new student was inserted successfully!    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9dd3f20" id="422" symbol="11SwTextFrame" next="423" prev="421" upper="293" txtNodeIndex="217" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="73542" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+A new student was inserted successfully!    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdca3610" id="423" symbol="11SwTextFrame" next="424" prev="422" upper="293" txtNodeIndex="218" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="73822" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+A new student was inserted successfully!    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9e496b0" id="424" symbol="11SwTextFrame" next="425" prev="423" upper="293" txtNodeIndex="219" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="74102" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+Select Operation to Perform :    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdca52b0" id="425" symbol="11SwTextFrame" next="426" prev="424" upper="293" txtNodeIndex="220" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="74382" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+1.Insert    <Finish/>
+   </txt>
+   <txt ptr="0x55abcd99cba0" id="426" symbol="11SwTextFrame" next="427" prev="425" upper="293" txtNodeIndex="221" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="74662" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+2.Update    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d67e00" id="427" symbol="11SwTextFrame" next="428" prev="426" upper="293" txtNodeIndex="222" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="74942" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+3.Delete    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9faaf60" id="428" symbol="11SwTextFrame" next="429" prev="427" upper="293" txtNodeIndex="223" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="75222" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+4.Select    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d8bed0" id="429" symbol="11SwTextFrame" next="430" prev="428" upper="293" txtNodeIndex="224" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="75502" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+5.Drop Table    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d905c0" id="430" symbol="11SwTextFrame" next="431" prev="429" upper="293" txtNodeIndex="225" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="75782" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+6.Exit    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d8bc00" id="431" symbol="11SwTextFrame" next="432" prev="430" upper="293" txtNodeIndex="226" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="76062" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+4    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d6a8e0" id="432" symbol="11SwTextFrame" next="433" prev="431" upper="293" txtNodeIndex="227" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="76342" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+Student #1: 1 - Kaustubh - MCA II    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d84670" id="433" symbol="11SwTextFrame" next="434" prev="432" upper="293" txtNodeIndex="228" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="76622" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+Student #2: 2 - Angad - MCA II    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9fa0090" id="434" symbol="11SwTextFrame" next="435" prev="433" upper="293" txtNodeIndex="229" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="76902" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+Student #3: 3 - Sagar - MCA III    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9fa03a0" id="435" symbol="11SwTextFrame" next="436" prev="434" upper="293" txtNodeIndex="230" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="77182" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+Student #4: 4 - Rajesh - MCA II    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9f9fe00" id="436" symbol="11SwTextFrame" next="437" prev="435" upper="293" txtNodeIndex="231" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="77462" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+Select Operation to Perform :    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d96c00" id="437" symbol="11SwTextFrame" next="438" prev="436" upper="293" txtNodeIndex="232" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="77742" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+1.Insert    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9fafa00" id="438" symbol="11SwTextFrame" next="439" prev="437" upper="293" txtNodeIndex="233" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="78022" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+2.Update    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9fb4200" id="439" symbol="11SwTextFrame" next="440" prev="438" upper="293" txtNodeIndex="234" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="78302" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+3.Delete    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d91240" id="440" symbol="11SwTextFrame" next="441" prev="439" upper="293" txtNodeIndex="235" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="78582" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+4.Select    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d9c240" id="441" symbol="11SwTextFrame" next="442" prev="440" upper="293" txtNodeIndex="236" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="78862" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+5.Drop Table    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d97e40" id="442" symbol="11SwTextFrame" next="443" prev="441" upper="293" txtNodeIndex="237" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="79142" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+6.Exit    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d86c40" id="443" symbol="11SwTextFrame" next="444" prev="442" upper="293" txtNodeIndex="238" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="79422" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+1    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d7d640" id="444" symbol="11SwTextFrame" next="445" prev="443" upper="293" txtNodeIndex="239" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="79702" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+Enter Student id ,Student Name &amp; Student Class    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d7b800" id="445" symbol="11SwTextFrame" next="446" prev="444" upper="293" txtNodeIndex="240" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="79982" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+5    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d83840" id="446" symbol="11SwTextFrame" next="447" prev="445" upper="293" txtNodeIndex="241" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="80262" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+Manoj    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d63a00" id="447" symbol="11SwTextFrame" next="448" prev="446" upper="293" txtNodeIndex="242" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="80542" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+MCA III    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9fa5c00" id="448" symbol="11SwTextFrame" next="449" prev="447" upper="293" txtNodeIndex="243" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="80822" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+A new student was inserted successfully!    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d8f4d0" id="449" symbol="11SwTextFrame" next="450" prev="448" upper="293" txtNodeIndex="244" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="81102" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+Select Operation to Perform :    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9fae400" id="450" symbol="11SwTextFrame" next="451" prev="449" upper="293" txtNodeIndex="245" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="81382" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+1.Insert    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d8f200" id="451" symbol="11SwTextFrame" next="452" prev="450" upper="293" txtNodeIndex="246" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="81662" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+2.Update    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d79e00" id="452" symbol="11SwTextFrame" next="453" prev="451" upper="293" txtNodeIndex="247" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="81942" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+3.Delete    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d80a00" id="453" symbol="11SwTextFrame" next="454" prev="452" upper="293" txtNodeIndex="248" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="82222" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+4.Select    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9fa12d0" id="454" symbol="11SwTextFrame" next="455" prev="453" upper="293" txtNodeIndex="249" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="82502" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+5.Drop Table    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9fac200" id="455" symbol="11SwTextFrame" next="456" prev="454" upper="293" txtNodeIndex="250" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="82782" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+6.Exit    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9e800d0" id="456" symbol="11SwTextFrame" next="457" prev="455" upper="293" txtNodeIndex="251" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="83062" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+4    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9fa1000" id="457" symbol="11SwTextFrame" next="458" prev="456" upper="293" txtNodeIndex="252" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="83342" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+Student #1: 1 - Kaustubh - MCA II    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9e7fe00" id="458" symbol="11SwTextFrame" next="459" prev="457" upper="293" txtNodeIndex="253" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="83622" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+Student #2: 2 - Angad - MCA II    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d8ca00" id="459" symbol="11SwTextFrame" next="460" prev="458" upper="293" txtNodeIndex="254" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="83902" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+Student #3: 3 - Sagar - MCA III    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d85c00" id="460" symbol="11SwTextFrame" prev="459" upper="293" txtNodeIndex="255" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="84182" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+Student #4: 4 - Rajesh - MCA II    <Finish/>
+   </txt>
+  </body>
+ </page>
+ <page ptr="0x55abc9f596d0" id="519" symbol="11SwPageFrame" next="521" prev="292" upper="0" lower="520">
+  <page_status ValidFlyLayout="false" ValidFlyContent="false" ValidFlyInCnt="false" ValidLayout="false" ValidContent="false"/>
+  <infos>
+   <bounds left="7047" top="85894" width="11906" height="16838" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+   <prtBounds left="1134" top="1134" width="9638" height="14570"/>
+  </infos>
+  <body ptr="0x55abc9ece160" id="520" symbol="11SwBodyFrame" upper="519" lower="461">
+   <infos>
+    <bounds left="8181" top="87028" width="9638" height="14570" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+    <prtBounds left="0" top="0" width="9638" height="14570"/>
+   </infos>
+   <txt ptr="0x55abcdceecd0" id="461" symbol="11SwTextFrame" next="462" upper="520" txtNodeIndex="256" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="87028" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+Student #5: 5 - Manoj - MCA III    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9e8da00" id="462" symbol="11SwTextFrame" next="463" prev="461" upper="520" txtNodeIndex="257" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="87308" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+Select Operation to Perform :    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9f7be10" id="463" symbol="11SwTextFrame" next="464" prev="462" upper="520" txtNodeIndex="258" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="87588" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+1.Insert    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdd09f20" id="464" symbol="11SwTextFrame" next="465" prev="463" upper="520" txtNodeIndex="259" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="87868" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+2.Update    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdd0ac00" id="465" symbol="11SwTextFrame" next="466" prev="464" upper="520" txtNodeIndex="260" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="88148" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+3.Delete    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdd08980" id="466" symbol="11SwTextFrame" next="467" prev="465" upper="520" txtNodeIndex="261" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="88428" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+4.Select    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdd062e0" id="467" symbol="11SwTextFrame" next="468" prev="466" upper="520" txtNodeIndex="262" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="88708" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+5.Drop Table    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9ea1640" id="468" symbol="11SwTextFrame" next="469" prev="467" upper="520" txtNodeIndex="263" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="88988" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+6.Exit    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9f00050" id="469" symbol="11SwTextFrame" next="470" prev="468" upper="520" txtNodeIndex="264" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="89268" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+2    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdcffc00" id="470" symbol="11SwTextFrame" next="471" prev="469" upper="520" txtNodeIndex="265" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="89548" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+Enter ID to Update &amp; new Class    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9f92660" id="471" symbol="11SwTextFrame" next="472" prev="470" upper="520" txtNodeIndex="266" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="89828" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+5    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdd834d0" id="472" symbol="11SwTextFrame" next="473" prev="471" upper="520" txtNodeIndex="267" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="90108" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+MCAII         <Finish/>
+   </txt>
+   <txt ptr="0x55abc9f21c50" id="473" symbol="11SwTextFrame" next="474" prev="472" upper="520" txtNodeIndex="268" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="90388" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+An existing student was updated successfully!    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9eefc70" id="474" symbol="11SwTextFrame" next="475" prev="473" upper="520" txtNodeIndex="269" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="90668" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+Select Operation to Perform :    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc7a210" id="475" symbol="11SwTextFrame" next="476" prev="474" upper="520" txtNodeIndex="270" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="90948" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+1.Insert    <Finish/>
+   </txt>
+   <txt ptr="0x55abce002300" id="476" symbol="11SwTextFrame" next="477" prev="475" upper="520" txtNodeIndex="271" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="91228" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+2.Update    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdcf4a70" id="477" symbol="11SwTextFrame" next="478" prev="476" upper="520" txtNodeIndex="272" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="91508" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+3.Delete    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9f0ea00" id="478" symbol="11SwTextFrame" next="479" prev="477" upper="520" txtNodeIndex="273" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="91788" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+4.Select    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9eca190" id="479" symbol="11SwTextFrame" next="480" prev="478" upper="520" txtNodeIndex="274" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="92068" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+5.Drop Table    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc977b0" id="480" symbol="11SwTextFrame" next="481" prev="479" upper="520" txtNodeIndex="275" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="92348" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+6.Exit    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9ec1240" id="481" symbol="11SwTextFrame" next="482" prev="480" upper="520" txtNodeIndex="276" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="92628" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+4    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc5b3f0" id="482" symbol="11SwTextFrame" next="483" prev="481" upper="520" txtNodeIndex="277" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="92908" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+Student #1: 1 - Kaustubh - MCA II    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9f95920" id="483" symbol="11SwTextFrame" next="484" prev="482" upper="520" txtNodeIndex="278" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="93188" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+Student #2: 2 - Angad - MCA II    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdd2b150" id="484" symbol="11SwTextFrame" next="485" prev="483" upper="520" txtNodeIndex="279" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="93468" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+Student #3: 3 - Sagar - MCA III    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d9ea00" id="485" symbol="11SwTextFrame" next="486" prev="484" upper="520" txtNodeIndex="280" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="93748" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+Student #4: 4 - Rajesh - MCA I    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9e9fa00" id="486" symbol="11SwTextFrame" next="487" prev="485" upper="520" txtNodeIndex="281" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="94028" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+Student #5: 5 - Manoj - MCA III    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdd03400" id="487" symbol="11SwTextFrame" next="488" prev="486" upper="520" txtNodeIndex="282" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="94308" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+Select Operation to Perform :    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d94620" id="488" symbol="11SwTextFrame" next="489" prev="487" upper="520" txtNodeIndex="283" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="94588" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+1.Insert    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d73170" id="489" symbol="11SwTextFrame" next="490" prev="488" upper="520" txtNodeIndex="284" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="94868" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+2.Update    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdcc7fe0" id="490" symbol="11SwTextFrame" next="491" prev="489" upper="520" txtNodeIndex="285" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="95148" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+3.Delete    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d92070" id="491" symbol="11SwTextFrame" next="492" prev="490" upper="520" txtNodeIndex="286" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="95428" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+4.Select    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdfcd490" id="492" symbol="11SwTextFrame" next="493" prev="491" upper="520" txtNodeIndex="287" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="95708" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+5.Drop Table    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9f7d1b0" id="493" symbol="11SwTextFrame" next="494" prev="492" upper="520" txtNodeIndex="288" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="95988" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+6.Exit    <Finish/>
+   </txt>
+   <txt ptr="0x55abcd374490" id="494" symbol="11SwTextFrame" next="495" prev="493" upper="520" txtNodeIndex="289" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="96268" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+3    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdcff3a0" id="495" symbol="11SwTextFrame" next="496" prev="494" upper="520" txtNodeIndex="290" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="96548" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+Enter ID to Delete    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9fb4f70" id="496" symbol="11SwTextFrame" next="497" prev="495" upper="520" txtNodeIndex="291" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="96828" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+5    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9fa80d0" id="497" symbol="11SwTextFrame" next="498" prev="496" upper="520" txtNodeIndex="292" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="97108" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+A Student was deleted successfully!    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d83570" id="498" symbol="11SwTextFrame" next="499" prev="497" upper="520" txtNodeIndex="293" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="97388" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+Select Operation to Perform :    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d7c960" id="499" symbol="11SwTextFrame" next="500" prev="498" upper="520" txtNodeIndex="294" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="97668" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+1.Insert    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d79360" id="500" symbol="11SwTextFrame" next="501" prev="499" upper="520" txtNodeIndex="295" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="97948" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+2.Update    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc9b260" id="501" symbol="11SwTextFrame" next="502" prev="500" upper="520" txtNodeIndex="296" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="98228" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+3.Delete    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d96f70" id="502" symbol="11SwTextFrame" next="503" prev="501" upper="520" txtNodeIndex="297" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="98508" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+4.Select    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9dc4e40" id="503" symbol="11SwTextFrame" next="504" prev="502" upper="520" txtNodeIndex="298" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="98788" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+5.Drop Table    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d6abf0" id="504" symbol="11SwTextFrame" next="505" prev="503" upper="520" txtNodeIndex="299" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="99068" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+6.Exit    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9dd57b0" id="505" symbol="11SwTextFrame" next="506" prev="504" upper="520" txtNodeIndex="300" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="99348" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+4    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9fb5fa0" id="506" symbol="11SwTextFrame" next="507" prev="505" upper="520" txtNodeIndex="301" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="99628" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+Student #1: 1 - Kaustubh - MCA II    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9dd6290" id="507" symbol="11SwTextFrame" next="508" prev="506" upper="520" txtNodeIndex="302" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="99908" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+Student #2: 2 - Angad - MCA II    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9eeb4f0" id="508" symbol="11SwTextFrame" next="509" prev="507" upper="520" txtNodeIndex="303" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="100188" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+Student #3: 3 - Sagar - MCA III    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d776d0" id="509" symbol="11SwTextFrame" next="510" prev="508" upper="520" txtNodeIndex="304" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="100468" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+Student #4: 4 - Rajesh - MCA I    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9fae6d0" id="510" symbol="11SwTextFrame" next="511" prev="509" upper="520" txtNodeIndex="305" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="100748" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+Select Operation to Perform :    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d6b840" id="511" symbol="11SwTextFrame" next="512" prev="510" upper="520" txtNodeIndex="306" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="101028" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+1.Insert    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d66640" id="512" symbol="11SwTextFrame" prev="511" upper="520" txtNodeIndex="307" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="101308" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+2.Update    <Finish/>
+   </txt>
+  </body>
+ </page>
+ <page ptr="0x55abcdd061c0" id="521" symbol="11SwPageFrame" next="532" prev="519" upper="0" lower="522">
+  <page_status ValidFlyLayout="true" ValidFlyContent="true" ValidFlyInCnt="true" ValidLayout="true" ValidContent="true"/>
+  <infos>
+   <bounds left="7047" top="103016" width="11906" height="16838" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+   <prtBounds left="1134" top="1134" width="9638" height="14570"/>
+  </infos>
+  <body ptr="0x55abcdd09980" id="522" symbol="11SwBodyFrame" upper="521" lower="513">
+   <infos>
+    <bounds left="8181" top="104150" width="9638" height="14570" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+    <prtBounds left="0" top="0" width="9638" height="14570"/>
+   </infos>
+   <txt ptr="0x55abc9f50a10" id="513" symbol="11SwTextFrame" next="514" upper="522" txtNodeIndex="308" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="104150" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+3.Delete    <Text nLength="8" nType="PortionType::Para" nHeight="280" nWidth="1156" Portion="3.Delete"/>
+    <LineBreak nWidth="1156" Line="3.Delete"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d91c00" id="514" symbol="11SwTextFrame" next="515" prev="513" upper="522" txtNodeIndex="309" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="104430" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+4.Select    <Text nLength="8" nType="PortionType::Para" nHeight="280" nWidth="1156" Portion="4.Select"/>
+    <LineBreak nWidth="1156" Line="4.Select"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9fa3cd0" id="515" symbol="11SwTextFrame" next="516" prev="514" upper="522" txtNodeIndex="310" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="104710" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+5.Drop Table    <Text nLength="12" nType="PortionType::Para" nHeight="280" nWidth="1734" Portion="5.Drop Table"/>
+    <LineBreak nWidth="1734" Line="5.Drop Table"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9e5ded0" id="516" symbol="11SwTextFrame" next="517" prev="515" upper="522" txtNodeIndex="311" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="104990" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+6.Exit    <Text nLength="6" nType="PortionType::Para" nHeight="280" nWidth="867" Portion="6.Exit"/>
+    <LineBreak nWidth="867" Line="6.Exit"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abc9d72640" id="517" symbol="11SwTextFrame" next="518" prev="516" upper="522" txtNodeIndex="312" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="105270" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+5    <Text nLength="1" nType="PortionType::Para" nHeight="280" nWidth="145" Portion="5"/>
+    <LineBreak nWidth="145" Line="5"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abcd91ae30" id="518" symbol="11SwTextFrame" next="414" prev="517" upper="522" txtNodeIndex="313" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="105550" width="9638" height="560" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="560"/>
+    </infos>
+Student Table DROPPED . Program needs to restart to fire initial queries    <Text nLength="65" nType="PortionType::Para" nHeight="280" nWidth="9393" Portion="Student Table DROPPED . Program needs to restart to fire initial "/>
+    <LineBreak nWidth="9393" Line="Student Table DROPPED . Program needs to restart to fire initial "/>
+    <Text nLength="7" nType="PortionType::Lay" nHeight="280" nWidth="1012" Portion="queries"/>
+    <LineBreak nWidth="1012" Line="queries"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc88900" id="414" symbol="11SwTextFrame" next="523" prev="518" upper="522" txtNodeIndex="314" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="106110" width="9638" height="280" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="280"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abcd2309b0" id="523" symbol="11SwTextFrame" next="524" prev="414" upper="522" txtNodeIndex="315" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="106390" width="9638" height="276" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="276"/>
+    </infos>
+    <anchored>
+     <fly ptr="0x55abc9a68620" id="528" symbol="19SwFlyAtContentFrame" lower="529">
+      <infos>
+       <bounds left="7666" top="113003" width="10693" height="6011" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="0" top="0" width="10693" height="6011"/>
+      </infos>
+      <notxt ptr="0x55abcf107e00" id="529" symbol="13SwNoTextFrame" upper="528">
+       <infos>
+        <bounds left="7666" top="113003" width="10693" height="6011" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="10693" height="6011"/>
+       </infos>
+      </notxt>
+     </fly>
+    </anchored>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abcfdab810" id="524" symbol="11SwTextFrame" prev="523" upper="522" txtNodeIndex="316" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="106666" width="9638" height="6309" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="6309"/>
+    </infos>
+    <anchored>
+     <fly ptr="0x55abcd38aa20" id="525" symbol="19SwFlyAtContentFrame" lower="526">
+      <infos>
+       <bounds left="7690" top="106780" width="10530" height="5919" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="0" top="0" width="10530" height="5919"/>
+      </infos>
+      <notxt ptr="0x55abca06e400" id="526" symbol="13SwNoTextFrame" upper="525">
+       <infos>
+        <bounds left="7690" top="106780" width="10530" height="5919" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="10530" height="5919"/>
+       </infos>
+      </notxt>
+     </fly>
+    </anchored>
+    <Special nLength="0" nType="PortionType::Fly" rText="" nHeight="6033" nWidth="9638"/>
+    <LineBreak nWidth="9638"/>
+    <Text nLength="0" nType="PortionType::Lay" nHeight="276"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+  </body>
+ </page>
+ <page ptr="0x55abcdcbc6c0" id="532" symbol="11SwPageFrame" prev="521" upper="0" lower="533">
+  <page_status ValidFlyLayout="true" ValidFlyContent="true" ValidFlyInCnt="true" ValidLayout="true" ValidContent="true"/>
+  <infos>
+   <bounds left="7047" top="120138" width="11906" height="16838" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+   <prtBounds left="1134" top="1134" width="9638" height="14570"/>
+  </infos>
+  <body ptr="0x55abcd983470" id="533" symbol="11SwBodyFrame" upper="532" lower="527">
+   <infos>
+    <bounds left="8181" top="121272" width="9638" height="14570" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+    <prtBounds left="0" top="0" width="9638" height="14570"/>
+   </infos>
+   <txt ptr="0x55abcd9bdc20" id="527" symbol="11SwTextFrame" next="413" upper="533" txtNodeIndex="317" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="121272" width="9638" height="276" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="276"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55abcdc5b7c0" id="413" symbol="11SwTextFrame" prev="527" upper="533" txtNodeIndex="318" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8181" top="121548" width="9638" height="5992" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9638" height="5992"/>
+    </infos>
+    <anchored>
+     <fly ptr="0x55abcdaf66d0" id="534" symbol="19SwFlyAtContentFrame" lower="535">
+      <infos>
+       <bounds left="7916" top="121548" width="10168" height="5716" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="0" top="0" width="10168" height="5716"/>
+      </infos>
+      <notxt ptr="0x55abcdadea70" id="535" symbol="13SwNoTextFrame" upper="534">
+       <infos>
+        <bounds left="7916" top="121548" width="10168" height="5716" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="10168" height="5716"/>
+       </infos>
+      </notxt>
+     </fly>
+    </anchored>
+    <Special nLength="0" nType="PortionType::Fly" rText="" nHeight="5716" nWidth="9638"/>
+    <LineBreak nWidth="9638"/>
+    <Text nLength="0" nType="PortionType::Lay" nHeight="276"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+  </body>
+ </page>
+</root>
