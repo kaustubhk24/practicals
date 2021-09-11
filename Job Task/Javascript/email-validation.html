@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Validation</title>
+</head>
+<body>
+    <center>
+        <h3>Email Validation</h3>
+        <p>valid if format is like user@example.com</p>
+        <form onsubmit="validate();" >
+            <label for="email">Email</label> 
+            <input type="text" name="email" id="email">
+            <label for="email">Email</label>
+            <input type="email" name="Mail" id="Mail">
+            <input type="submit" value="Validate">
+         </form>
+    </center>
+
+
+<script type="text/javascript">
+function validate()
+{
+    var input=document.getElementById("email").value;
+    if(ValidateEmail(input))
+    {
+        window.alert("Valid Email");
+    }
+    else{
+        window.alert("You entered invalid mail");
+    }
+}
+function ValidateEmail(mail) 
+{
+ if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(mail))
+  {
+    return true;
+  }
+  else{
+    return false;
+    }
+}
+</script>
+
+</body>
+</html>
